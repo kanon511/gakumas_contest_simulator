@@ -108,11 +108,11 @@ export class EvaluationCalculator {
       
       case 'ターン終了時スコア+4':
       case 'アクティブスキルカード使用時、パラメータ+4':
-          var effect = new Effect({ type: 'parameter', value: 4 });
+          var effect = new Effect({ type: 'score', value: 4 });
           effect.value = EffectCalculator.calcValue(effect, player);
           return total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect, player);
       case 'アクティブスキルカード使用時、パラメータ+5':
-          var effect = new Effect({ type: 'parameter', value: 5 });
+          var effect = new Effect({ type: 'score', value: 5 });
           effect.value = EffectCalculator.calcValue(effect, player);
           return total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect, player);
       

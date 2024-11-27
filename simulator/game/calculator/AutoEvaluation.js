@@ -6490,6 +6490,10 @@ export default class AutoEvaluationData {
             rawRemainTurn = AutoEvaluation["maxRemainingTerm"];
         }
 
+        if (status.type == "score"){
+            status.value *= player.parameter.getScale(player.turnManager.getTurnType())
+        }
+
         if (isDecay){
             eva += AutoEvaluation[this.jobNameToIdMapping[player.trend]]
             ["evaluations"][rawRemainTurn][this.effectNameToIdMapping[status.type]]
