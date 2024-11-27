@@ -600,60 +600,8 @@ export const data = [
     ],
   },
   {
-    id: 241123,
-    name: '第13期コンテスト（红蓝对半开局，最后三回合为黄红蓝）',
-    period: '2024/11/24 -  12/08',
-    criteria: {
-      vocal: 35,
-      dance: 35,
-      visual: 30,
-    },
-    rank: ['dance', 'vocal', 'visual'],
-    stages: [
-      {
-        name: 'ステージ1（3,2,1）',
-        turn: 6,
-        stageEffects: [],
-        stagePItemIds: [4241121],
-        plan: 'free',
-        turnTypes: {
-          vocal: 2,
-          dance: 3,
-          visual: 1,
-        },
-        firstTurnFirstTypeProb: 0.5,
-      },
-      {
-        name: 'ステージ2（5,4,3）',
-        turn: 12,
-        stageEffects: [],
-        stagePItemIds: [4241122],
-        plan: 'sense',
-        turnTypes: {
-          vocal: 4,
-          dance: 5,
-          visual: 3,
-        },
-        firstTurnFirstTypeProb: 0.5,
-      },
-      {
-        name: 'ステージ3（5,4,3）',
-        turn: 12,
-        stageEffects: [],
-        stagePItemIds: [4241123],
-        plan: 'logic',
-        turnTypes: {
-          vocal: 4,
-          dance: 5,
-          visual: 3,
-        },
-        firstTurnFirstTypeProb: 0.5,
-      },
-    ],
-  },
-  {
     id: 241124,
-    name: '第13期コンテスト（红蓝对半开局，最后三回合为黄蓝红）',
+    name: '第13期コンテスト',
     period: '2024/11/24 -  12/08',
     criteria: {
       vocal: 35,
@@ -673,7 +621,7 @@ export const data = [
           dance: 2,
           visual: 1,
         },
-        firstTurnFirstTypeProb: 0.5,
+        firstTurnFirstTypeProb: 1,
       },
       {
         name: 'ステージ2（5,4,3）',
@@ -686,7 +634,7 @@ export const data = [
           dance: 4,
           visual: 3,
         },
-        firstTurnFirstTypeProb: 0.5,
+        firstTurnFirstTypeProb: 0.88,
       },
       {
         name: 'ステージ3（5,4,3）',
@@ -699,7 +647,7 @@ export const data = [
           dance: 4,
           visual: 3,
         },
-        firstTurnFirstTypeProb: 0.5,
+        firstTurnFirstTypeProb: 0.88,
       },
     ],
   },
