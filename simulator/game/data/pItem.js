@@ -2354,7 +2354,7 @@ export const data = [
     id: 4241122,
     name: '初星オブジェ（紫）',
     description: '',
-    trigger: 'start_turn',
+    trigger: 'start_turn_interval',
     condition: 'turn==10',
     effects: [
       { type: 'status', target: '好調', value: 10 },

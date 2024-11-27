@@ -3,7 +3,7 @@
     <v-col cols="3" class="pa-0">
       <div class="status-block">
         <p class="status-title red">ボーカル</p>
-        <input type="number" v-model.number="status.vocal" class="status-input" />
+        <input type="number" v-model.number="inputStatus.vocal" class="status-input" />
         <div class="adjusted-value-box red">
           <p>{{ status.vocal }}%</p>
         </div>
@@ -13,7 +13,7 @@
     <v-col cols="3" class="pa-0">
       <div class="status-block">
         <p class="status-title blue">ダンス</p>
-        <input type="number" v-model.number="status.dance" class="status-input" />
+        <input type="number" v-model.number="inputStatus.dance" class="status-input" />
         <div class="adjusted-value-box blue">
           <p>{{ status.dance }}%</p>
         </div>
@@ -23,7 +23,7 @@
     <v-col cols="3" class="pa-0">
       <div class="status-block">
         <p class="status-title yellow">ビジュアル</p>
-        <input type="number" v-model.number="status.visual" class="status-input" />
+        <input type="number" v-model.number="inputStatus.visual" class="status-input" />
         <div class="adjusted-value-box yellow">
           <p>{{ status.visual }}%</p>
         </div>
@@ -54,9 +54,9 @@ onMounted(() => {
     //   Number(inputStatus.value.supportBonus) / 100,
     //   season.value,
     // );
-    // status.value.vocal = adjustedStatus[0];
-    // status.value.dance = adjustedStatus[1];
-    // status.value.visual = adjustedStatus[2];
+    status.value.vocal = inputStatus.value.vocal;
+    status.value.dance = inputStatus.value.dance;
+    status.value.visual = inputStatus.value.visual;
     status.value.hp = inputStatus.value.hp;
   };
   calc();
