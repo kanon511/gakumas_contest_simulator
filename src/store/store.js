@@ -1,6 +1,5 @@
 import { ref, watchEffect, computed, watch } from 'vue';
 import DataLoader from '/simulator/game/data/DataLoader.js';
-
 DataLoader.initialize();
 
 export const contestList = Array.from(DataLoader.contest_map)
@@ -38,6 +37,8 @@ export const criteria = ref({
   visual: 0,
 });
 
+export const season = ref(0);
+
 function correct(input, base) {
   const number = Number(input);
   if (Number.isFinite(number)) {
@@ -73,6 +74,7 @@ watch(contestStageId, () => {
   contest.value = DataLoader.get_contest_by_id(contestId);
   contestStage.value = contest.value.stages[stageId];
   criteria.value = contest.value.criteria;
+  season.value = contest.value.id;
   contestPlan.value = contestStage.value.plan;
   contestPItemIds.value = contestStage.value.stagePItemIds;
 });

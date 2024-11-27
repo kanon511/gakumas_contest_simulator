@@ -1,5 +1,8 @@
 export default class ParameterCalculator {
-  static adjustParameter(parameter) {
+  static adjustParameter(parameter, season) {
+    console.log(parameter, season);
+    const hasFlatBonus = season > 241120;
+
     if (parameter <= 300) {
       return parameter * 5 + 1;
     }
@@ -12,6 +15,11 @@ export default class ParameterCalculator {
     if (parameter <= 1200) {
       return parameter * 2 + 1800;
     }
+
+    if (hasFlatBonus) {
+      return parameter * 2 + 1800;
+    }
+
     return parameter * 1 + 3000;
   }
 
@@ -39,9 +47,9 @@ export default class ParameterCalculator {
       .reduce((total, current) => total + current, 0);
   }
 
-  static get(parameter, criteria, supportBonus) {
+  static get(parameter, criteria, supportBonus, season) {
     const adjustedParameter = parameter.map((value) =>
-      ParameterCalculator.adjustParameter(value)
+      ParameterCalculator.adjustParameter(value, season)
     );
     const scoreVonus = adjustedParameter.map((value, index) =>
       ParameterCalculator.getScoreBonus(
