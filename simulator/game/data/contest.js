@@ -614,7 +614,7 @@ export const data = [
         name: 'ステージ1（3,2,1）',
         turn: 6,
         stageEffects: [],
-        stagePItemIds: [4241121],
+        stagePItemIds: [4241111],
         plan: 'free',
         turnTypes: {
           vocal: 3,

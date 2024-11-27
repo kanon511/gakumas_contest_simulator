@@ -2351,19 +2351,6 @@ export const data = [
     plan: 'sense',
   },
   {
-    id: 4241121,
-    name: '初星バッチ（赤）',
-    description: '',
-    trigger: 'before_play_card',
-    condition: 'current_turn_card_play_count_multiple_of==2',
-    effects: [
-      { type: 'score', value: 2 },
-      { type: 'score', value: 2 },
-    ],
-    limit: 2,
-    plan: 'free',
-  },
-  {
     id: 4241122,
     name: '初星オブジェ（紫）',
     description: '',
