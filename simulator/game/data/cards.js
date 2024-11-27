@@ -738,6 +738,36 @@ export const data = [
     card_cost: 60,
     allow_duplicate: true,
   },
+  {
+    id: 2011080,
+    name: 'エキサイト',
+    type: 'active',
+    plan: 'sense',
+    cost: { type: 'hp', value: -4 },
+    condition: '',
+    effects: [
+        { type: 'score', value: 6 },
+        { type: 'status', target: '絶好調', value: 3 }
+    ],
+    limit: 1,
+    card_cost: 45,
+    allow_duplicate: true,
+},
+{
+    id: 2011081,
+    name: 'エキサイト+',
+    type: 'active',
+    plan: 'sense',
+    cost: { type: 'hp', value: -4 },
+    condition: '',
+    effects: [
+        { type: 'score', value: 10 },
+        { type: 'status', target: '絶好調', value: 4 }
+    ],
+    limit: 1,
+    card_cost: 60,
+    allow_duplicate: true,
+},
   // ### ##            ####      ## ##    ## ##     ####    ## ##              ##      ## ##   #### ##    ####   ### ###  ### ###
   //  ##  ##            ##      ##   ##  ##   ##     ##    ##   ##              ##    ##   ##  # ## ##     ##     ##  ##   ##  ##
   //  ##  ##            ##      ##   ##  ##          ##    ##                 ## ##   ##         ##        ##     ##  ##   ##
@@ -2482,6 +2512,44 @@ export const data = [
     card_cost: 141,
     allow_duplicate: false,
   },
+  {
+    id: 3012060,
+    name: 'きらきら紙吹雪',
+    type: 'active',
+    plan: 'logic',
+    cost: { type: 'status', target: 'やる気', value: -3 },
+    condition: '',
+    effects: [
+      {
+        type: 'score',
+        value: 0,
+        options: [{ type: 'increase_by_percentage', target:'block', value: 110 }]
+      },
+      { type: 'draw', value: 1, delay: 1 },
+    ],
+    limit: -1,
+    card_cost: 105,
+    allow_duplicate: false,
+},
+{
+    id: 3012061,
+    name: 'きらきら紙吹雪+',
+    type: 'active',
+    plan: 'logic',
+    cost: { type: 'status', target: 'やる気', value: -2 },
+    condition: '',
+    effects: [
+      {
+        type: 'score',
+        value: 0,
+        options: [{ type: 'increase_by_percentage', target:'block', value: 110 }]
+      },
+      { type: 'draw', value: 2, delay: 1 },
+    ],
+    limit: -1,
+    card_cost: 105,
+    allow_duplicate: false,
+},
   //  ## ##   ### ##            ### ###  ### ##   ### ###  ### ###           ##   ##  ### ###  ###  ##  #### ##    ##     ####
   // ##   ##   ##  ##            ##  ##   ##  ##   ##  ##   ##  ##            ## ##    ##  ##    ## ##  # ## ##     ##     ##
   // ####      ##  ##            ##       ##  ##   ##       ##               # ### #   ##       # ## #    ##      ## ##    ##
@@ -4391,6 +4459,40 @@ export const data = [
     card_cost: 204,
     allow_duplicate: false,
   },
+  {
+    id: 4012060,
+    name: 'キセキの魔法',
+    type: 'active',
+    plan: 'logic',
+    cost: { type: 'direct_hp', value: -5 },
+    condition: '',
+    effects: [
+      { type: 'score',
+        value: 0,
+        options: [{ type: 'increase_by_percentage', target: '好印象', value: 250 }]
+      },
+    ],
+    limit: 1,
+    card_cost: 150,
+    allow_duplicate: false,
+},
+{
+    id: 4012060,
+    name: 'キセキの魔法+',
+    type: 'active',
+    plan: 'logic',
+    cost: { type: 'direct_hp', value: -5 },
+    condition: '',
+    effects: [
+      { type: 'score',
+        value: 0,
+        options: [{ type: 'increase_by_percentage', target: '好印象', value: 340 }]
+      },
+    ],
+    limit: 1,
+    card_cost: 150,
+    allow_duplicate: false,
+},
   //  ## ##    ## ##   ### ##            ### ###  ### ##   ### ###  ### ###           ##   ##  ### ###  ###  ##  #### ##    ##     ####
   // ##   ##  ##   ##   ##  ##            ##  ##   ##  ##   ##  ##   ##  ##            ## ##    ##  ##    ## ##  # ## ##     ##     ##
   // ####     ####      ##  ##            ##       ##  ##   ##       ##               # ### #   ##       # ## #    ##      ## ##    ##
