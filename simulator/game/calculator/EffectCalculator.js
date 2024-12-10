@@ -51,13 +51,16 @@ export default class EffectCalculator {
       const guideline_parameter_rate_increased_coef = (() => {
         switch (player.status.getValue('指針')) {
           case 0:
-          case 1:
             return 0;
-          case 2:
+          case 1:
             return -50;
+          case 2:
+            return -75;
           case 3:
             return 100;
           case 4:
+            return 150;
+          case 5:
             return 200;
         }
       })();
@@ -91,13 +94,15 @@ export default class EffectCalculator {
         const guideline_hp_comsumption = (() => {
           switch (player.status.getValue('指針')) {
             case 0:
-            case 1:
               return 0;
-            case 2:
+            case 1:
               return -50;
+            case 2:
+              return -75;
             case 3:
-              return 100;
             case 4:
+              return 100;
+            case 5:
               return 0;
           }
         })();

@@ -449,12 +449,35 @@ export default class Player extends Clone {
           /* 暫定 */
           if (target == '指針') {
             const guideline = this.status.getValue(target);
-            const guidelineTexts = ['無し', '無し', '温存', '強気', '全力'];
+            const guidelineTexts = ['無し', '温存', '温存+', '強気', '強気+', '全力'];
             if (guideline != value) {
+              if (guideline == 1 && value == 1) {
+                this.status.add('指針', 2);
+                this.log.add(
+                  'effect',
+                  null,
+                  `指針：${guidelineTexts[guideline]}→${guidelineTexts[2]}`
+                );
+                return
+              }
+              if (guideline == 3 && value == 3) {
+                this.status.add('指針', 4);
+                this.log.add(
+                  'effect',
+                  null,
+                  `指針：${guidelineTexts[guideline]}→${guidelineTexts[4]}`
+                );
+                return
+              }
               // this.triggerEvent(`change_guideline:${value}`);
-              if (guideline == 2 && (value == 3 || value == 4)) {
+              if (guideline == 1 && (value >= 3 || value <= 5)) {
                 const zeal = this.status.getValue('熱意');
                 this.status.add('熱意', 5);
+                this.log.add('effect', null, `熱意：${zeal}→${zeal + 5}(5)`);
+              }
+              if (guideline == 2 && (value >= 3 || value <= 5)) {
+                const zeal = this.status.getValue('熱意');
+                this.status.add('熱意', 8);
                 this.log.add('effect', null, `熱意：${zeal}→${zeal + 5}(5)`);
               }
               this.status.add('指針', value);

@@ -29,10 +29,11 @@ export default class EntityTranslator {
   };
   static guidelineTranslation = {
     0: '無',
-    1: '無',
-    2: '温存',
+    1: '温存',
+    2: '温存+',
     3: '強気',
-    4: '全力',
+    4: '強気+',
+    5: '全力',
   };
   static effectTypeTranslation = {
     score: 'スコア',

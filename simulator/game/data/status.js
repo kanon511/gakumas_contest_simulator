@@ -406,6 +406,22 @@ export const data = [
     ],
     isDecay: false,
   },
+  {
+    id: 1210090,
+    name: 'ターン開始時、好調+2',
+    valueType: 'number',
+    type: 'buff',
+    trigger: 'start_turn',
+    condition: '',
+    effects: [
+      {
+        type: 'status',
+        target: '好調',
+        value: 2,
+      },
+    ],
+    isDecay: false,
+  },
 
   {
     id: 9210010,

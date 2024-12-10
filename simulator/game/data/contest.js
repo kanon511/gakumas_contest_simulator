@@ -651,4 +651,56 @@ export const data = [
       },
     ],
   },
+  {
+    id: 241209,
+    name: '第14期コンテスト',
+    period: '2024/12/09 -  12/23',
+    criteria: {
+      vocal: 15,
+      dance: 45,
+      visual: 40,
+    },
+    rank: ['dance', 'visual', 'vocal'],
+    stages: [
+      {
+        name: 'ステージ1（3,2,1）',
+        turn: 8,
+        stageEffects: [],
+        stagePItemIds: [4241211],
+        plan: 'free',
+        turnTypes: {
+          vocal: 2,
+          dance: 4,
+          visual: 2,
+        },
+        firstTurnFirstTypeProb: 1,
+      },
+      {
+        name: 'ステージ2（5,4,3）',
+        turn: 12,
+        stageEffects: [],
+        stagePItemIds: [4241122],
+        plan: 'sense',
+        turnTypes: {
+          vocal: 2,
+          dance: 6,
+          visual: 4,
+        },
+        firstTurnFirstTypeProb: 1,
+      },
+      {
+        name: 'ステージ3（5,4,3）',
+        turn: 12,
+        stageEffects: [],
+        stagePItemIds: [4241213],
+        plan: 'logic',
+        turnTypes: {
+          vocal: 2,
+          dance: 6,
+          visual: 4,
+        },
+        firstTurnFirstTypeProb: 1,
+      },
+    ],
+  },
 ];

@@ -1123,6 +1123,30 @@ export const data = [
     plan: 'logic',
   },
   {
+    id: 2303040,
+    name: '費用0円愛情MAX',
+    description: '',
+    trigger: 'start_turn',
+    condition: 'やる気>=5',
+    effects: [
+        { type: 'genki', value: 4 },
+    ],
+    limit: 2,
+    plan: 'logic',
+},
+{
+    id: 2303041,
+    name: '費用0円愛情MAX+',
+    description: '',
+    trigger: 'start_turn',
+    condition: 'やる気>=5',
+    effects: [
+        { type: 'genki', value: 6 },
+    ],
+    limit: 2,
+    plan: 'logic',
+},
+  {
     id: 2304010,
     name: '内なる光の耳飾り',
     description: '',
@@ -1258,6 +1282,39 @@ export const data = [
     limit: 4,
     plan: 'sense',
   },
+  {
+    id: 2305030,
+    name: '海の向こうまで+',
+    description: '',
+    trigger: 'start_turn',
+    condition: 'やる気>=5',
+    effects: [
+      {
+        type: 'status', target: 'やる気', value: 0,
+        options: [{ type: 'increase_by_percentage', target: 'やる気', value: 30 }],
+      },
+      { type: 'draw', value: 1 },
+      { type: 'fixed_direct_hp', value: -1 },
+    ],
+    limit: 3,
+    plan: 'logic',
+},
+{
+    id: 2305031,
+    name: '海の向こうまで+',
+    description: '',
+    trigger: 'start_turn',
+    condition: 'やる気>=5',
+    effects: [
+      {
+        type: 'status', target: 'やる気', value: 0,
+        options: [{ type: 'increase_by_percentage', target: 'やる気', value: 30 }],
+      },
+      { type: 'draw', value: 1 },
+    ],
+    limit: 3,
+    plan: 'logic',
+},
   {
     id: 2306010,
     name: 'ひみつ特訓カーデ',
@@ -1674,6 +1731,31 @@ export const data = [
     plan: 'logic',
   },
   {
+    id: 2310020,
+    name: 'めりくりライオン',
+    description: '',
+    trigger: 'start_turn',
+    condition: 'remain_turn<=2',
+    effects: [
+        { type: 'score', value: 0, options: [{ type: 'increase_by_percentage', target: '好調', value: 70 }] },
+        { type: 'fixed_direct_hp', value: -1 },
+    ],
+    limit: 2,
+    plan: 'sense',
+},
+{
+    id: 2310021,
+    name: 'めりくりライオン+',
+    description: '',
+    trigger: 'start_turn',
+    condition: 'remain_turn<=2',
+    effects: [
+        { type: 'score', value: 0, options: [{ type: 'increase_by_percentage', target: '好調', value: 70 }] },
+    ],
+    limit: 2,
+    plan: 'sense',
+},
+  {
     id: 2311010,
     name: '新しい、私+',
     trigger: 'after_play_card',
@@ -1906,6 +1988,18 @@ export const data = [
   { id: 3300200, name: 'つやつやでふさふさ' },
   { id: 3300210, name: '会長の完璧な計画' },
   { id: 3300220, name: 'ごちそうさまでした' },
+  {
+    id: 3300230,
+    name: 'ぬくもりふたりぶん',
+    description: '',
+    trigger: 'before_play_card',
+    condition: 'turn_type==visual&やる気>=5',
+    effects: [
+        { type: 'genki', value: 2 },
+    ],
+    limit: 2,
+    plan: 'logic',
+},
   //  ## ##    ## ##   ###  ##  #### ##  ### ###   ## ##   #### ##
   // ##   ##  ##   ##    ## ##  # ## ##   ##  ##  ##   ##  # ## ##
   // ##       ##   ##   # ## #    ##      ##      ####       ##
@@ -2376,6 +2470,37 @@ export const data = [
     limit: 3,
     plan: 'logic',
   },
+
+  {
+    id: 4241211,
+    name: '初星バッチ（赤）',
+    description: '',
+    trigger: 'before_play_card',
+    condition: '',
+    effects: [
+      {
+        type: 'status',
+        target: 'パラメータ上昇量増加',
+        value: 30,
+        options: [{ type: 'status_option', target: 'turn', value: 3 }],
+      },
+    ],
+    limit: 5,
+    plan: 'free',
+},
+{
+    id: 4241213,
+    name: '初星ライト（紫）',
+    description: '',
+    trigger: 'start_turn',
+    condition: 'やる気>=12',
+    effects: [
+        { type: 'score', value: 0,
+          options: [{ type: 'increase_by_percentage', target: 'やる気', value: 500 }] },
+    ],
+    limit: 3,
+    plan: 'logic',
+},
   //   ####   ### ##    ## ##   ####              ### ##    ## ##     ##     ### ##
   //    ##     ##  ##  ##   ##   ##                ##  ##  ##   ##     ##     ##  ##
   //    ##     ##  ##  ##   ##   ##                ##  ##  ##   ##   ## ##    ##  ##
