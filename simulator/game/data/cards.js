@@ -6655,18 +6655,18 @@ export const data = [
   },
   {
     id: 4300161,
-    name: '紅葉ランニング+?',
+    name: '紅葉ランニング+',
     type: 'mental',
     plan: 'free',
-    cost: { type: 'hp', value: -1 },
+    cost: { type: 'hp', value: 0 },
     condition: '',
     effects: [
       { type: 'status', target: '低下状態無効', value: 1 },
-      { type: 'draw', value: 1 },
+      { type: 'draw', value: 2 },
       { type: 'status', target: 'スキルカード使用数追加', value: 1 },
     ],
     limit: 1,
-    card_cost: 96,
+    card_cost: 126,
     allow_duplicate: false,
   },
 ];
