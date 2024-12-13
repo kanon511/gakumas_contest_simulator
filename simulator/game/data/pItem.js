@@ -1284,9 +1284,9 @@ export const data = [
   },
   {
     id: 2305030,
-    name: '海の向こうまで+',
+    name: '海の向こうまで',
     description: '',
-    trigger: 'start_turn',
+    trigger: 'start_turn_interval',
     condition: 'やる気>=5',
     effects: [
       {
@@ -1303,7 +1303,7 @@ export const data = [
     id: 2305031,
     name: '海の向こうまで+',
     description: '',
-    trigger: 'start_turn',
+    trigger: 'start_turn_interval',
     condition: 'やる気>=5',
     effects: [
       {
