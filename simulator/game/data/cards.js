@@ -2523,7 +2523,7 @@ export const data = [
       {
         type: 'score',
         value: 0,
-        options: [{ type: 'increase_by_percentage', target:'block', value: 110 }]
+        options: [{ type: 'increase_by_percentage', target:'genki', value: 110 }]
       },
       { type: 'draw', value: 1, delay: 1 },
     ],
@@ -2542,12 +2542,12 @@ export const data = [
       {
         type: 'score',
         value: 0,
-        options: [{ type: 'increase_by_percentage', target:'block', value: 110 }]
+        options: [{ type: 'increase_by_percentage', target:'genki', value: 110 }]
       },
       { type: 'draw', value: 2, delay: 1 },
     ],
     limit: -1,
-    card_cost: 105,
+    card_cost: 141,
     allow_duplicate: false,
 },
   //  ## ##   ### ##            ### ###  ### ##   ### ###  ### ###           ##   ##  ### ###  ###  ##  #### ##    ##     ####
@@ -4477,7 +4477,7 @@ export const data = [
     allow_duplicate: false,
 },
 {
-    id: 4012060,
+    id: 4012061,
     name: 'キセキの魔法+',
     type: 'active',
     plan: 'logic',
@@ -4490,7 +4490,7 @@ export const data = [
       },
     ],
     limit: 1,
-    card_cost: 150,
+    card_cost: 204,
     allow_duplicate: false,
 },
   //  ## ##    ## ##   ### ##            ### ###  ### ##   ### ###  ### ###           ##   ##  ### ###  ###  ##  #### ##    ##     ####

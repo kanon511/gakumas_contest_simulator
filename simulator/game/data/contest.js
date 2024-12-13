@@ -663,7 +663,7 @@ export const data = [
     rank: ['dance', 'visual', 'vocal'],
     stages: [
       {
-        name: 'ステージ1（3,2,1）',
+        name: 'ステージ1（2,4,2）',
         turn: 8,
         stageEffects: [],
         stagePItemIds: [4241211],
@@ -676,7 +676,7 @@ export const data = [
         firstTurnFirstTypeProb: 1,
       },
       {
-        name: 'ステージ2（5,4,3）',
+        name: 'ステージ2（2,6,4）',
         turn: 12,
         stageEffects: [],
         stagePItemIds: [4241122],
@@ -689,7 +689,7 @@ export const data = [
         firstTurnFirstTypeProb: 1,
       },
       {
-        name: 'ステージ3（5,4,3）',
+        name: 'ステージ3（2,6,4）',
         turn: 12,
         stageEffects: [],
         stagePItemIds: [4241213],
