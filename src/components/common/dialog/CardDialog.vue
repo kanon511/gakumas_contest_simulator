@@ -31,7 +31,15 @@
                 :src="`${baseImageURL}/cards/card_${item.id}.webp`"
                 class="item-option"
                 contain
-              ></v-img>
+              >
+                <template v-slot:error>
+                  <v-img
+                    :src="`${baseImageURL}/pItems/error.webp`"
+                    class="card-option"
+                    contain
+                  ></v-img>
+                </template>
+              </v-img>
               <v-tooltip
                 :model-value="true"
                 activator="parent"
@@ -116,10 +124,11 @@ const select = (item) => {
 }
 
 .v-tooltip :deep(.v-overlay__content) {
-  background-color: rgba(250, 250, 250, 0.9) !important;
-  border: solid 1px black;
-  color: black;
+  background-color: rgba(var(--v-theme-background), 0.85) !important;
+  border: solid 1px rgb(var(--v-border-color));
+  color: var(--v-theme-surface-bright);
 }
+
 .placeholder-icon {
   font-size: 32px;
 }

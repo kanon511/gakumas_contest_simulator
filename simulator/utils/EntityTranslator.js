@@ -28,11 +28,11 @@ export default class EntityTranslator {
     anomaly: 'アノマリー',
   };
   static guidelineTranslation = {
-    0: '無',
-    1: '温存',
-    2: '温存+',
-    3: '強気',
-    4: '強気+',
+    0: '無し',
+    1: '温存:段階1',
+    2: '温存:段階2',
+    3: '強気:段階1',
+    4: '強気:段階2',
     5: '全力',
   };
   static effectTypeTranslation = {
@@ -50,11 +50,23 @@ export default class EntityTranslator {
     generate: '生成',
     extra_turn: '追加ターン',
     cost: 'コスト',
+    retain: '保留',
+    move: '手札に移動',
+    reinforcement: 'カード強化',
   };
 
   static translateEffectType(type, target) {
     if (type == 'status') {
       return target;
+    }
+    if (type == 'reinforcement') {
+      return `カード強化:${target}`;
+    }
+    if (type == 'retain') {
+      return `${target}を保留`;
+    }
+    if (type == 'move') {
+      return `${DataLoader.getCardById(Number(target)).name}を手札に移動`;
     }
     return this.effectTypeTranslation[type];
   }
@@ -66,6 +78,8 @@ export default class EntityTranslator {
     cardPlayCount: 'カード使用数',
     currentTurnCardPlayCount: 'このターンのカード使用数',
     consumedHp: '消費した体力',
+    totalMantra: '累計全力値',
+    totalFullpower: '累計全力値',
   };
 
   static translateTargetName(target) {
@@ -77,8 +91,21 @@ export default class EntityTranslator {
     }
     const trigger = this.translateTrigger(growth.trigger);
     const condition = this.translateCondition(growth.condition);
-    const effects = growth.effects?.map((effect) => this.translateEffect(effect)) ?? '';
-    return `成長：${trigger}、${condition}なら、${effects.join('、')}`;
+    const effects = growth.effects?.map((effect) => this.translateGrowthEffect(effect)) ?? '';
+    const limit = growth.limit == -1 ? '' : `(${growth.limit}回)`;
+    return `成長：${trigger}、${condition}${condition ? 'なら、' : ''}${effects.join(
+      '、'
+    )}${limit}`;
+  }
+  static growthEffectTypeTranslation = {
+    add_score: 'スコア上昇量',
+    reduce_cost: 'コスト減少',
+    add_score_times: 'スコア発動回数',
+  };
+  static translateGrowthEffect(growthEffect) {
+    return `${this.growthEffectTypeTranslation[growthEffect.type]}${
+      growthEffect.value < 0 ? growthEffect.value : '+' + growthEffect.value
+    }`;
   }
   static translatePreEffect(preEffect) {
     if (!preEffect) {
@@ -137,6 +164,8 @@ export default class EntityTranslator {
         return 'カード使用後';
       case 'consume_hp':
         return '体力減少時';
+      case 'change_guideline':
+        return '指針変更時';
       default:
         if (~trigger.indexOf('increased_status')) {
           return trigger.replace('increased_status:', '') + '増加後';
@@ -210,6 +239,12 @@ export default class EntityTranslator {
     if (key == 'remain_turn') {
       return `残り${value}ターン`;
     }
+    if (key == 'total_mantra') {
+      return `累計全力値が${value}`;
+    }
+    if (key == 'total_fullpower') {
+      return `累計全力回数が${value}`;
+    }
     if (key == '指針') {
       return `指針:${this.guidelineTranslation[value]}`;
     }
@@ -220,8 +255,15 @@ export default class EntityTranslator {
     const effectText = this.translateConditionExpressionEffect(key, value);
     return `${effectText}${signText}`;
   }
-  static translateEffectValue(value, options) {
+  static translateEffectValue(value, options, type, target) {
+    // 後で考える
     let result = value < 0 ? `${value}` : `+${value}`;
+    if (type == 'retain') {
+      if (target == 'カード') {
+        return ` > ${DataLoader.cardMap.get(value)?.name}`;
+      }
+      return '';
+    }
     if (options) {
       let optionTexts = [];
       options.forEach(({ type, target, value }) => {
@@ -244,29 +286,52 @@ export default class EntityTranslator {
     return result;
   }
   static translateEffectDelay(delay) {
-    if (!delay || delay < 0) {
+    if (!delay || delay == 0) {
       return '';
+    }
+    if (delay == -1) {
+      return `最終ターン終了時、`;
     }
     return `${delay}ターン後、`;
   }
-  static translateEffect({ type, target, value, condition, delay, options }) {
+  static translateEffectOption({ type, target, value }, effectType) {
+    if (value == 0) return '';
+    if (type == 'increase_by_factor') {
+      return `${this.translateTargetName(target)}の${value}倍加算`;
+    }
+    if (type == 'status_coef_bonus') {
+      return `${this.translateTargetName(target)}${value}倍適用`;
+    }
+    if (type == 'increase_by_percentage') {
+      const postfix = value < 0 ? '減少' : '増加';
+      return `${this.translateTargetName(target)}${Math.abs(value)}%分の${effectType}${postfix}`;
+    }
+  }
+  static translateEffect({ type, target, value, condition, delay, options, times }) {
     const optionTexts = {
       increase_by_factor: '',
-      'increase_by_factor-1': '',
+      status_coef_bonus: '',
       increase_by_percentage: '',
     };
     const conditionText = this.translateCondition(condition);
     const delayText = this.translateEffectDelay(delay);
     const effectType = this.translateEffectType(type, target);
-    const valueText = this.translateEffectValue(value, options);
+    const valueText = this.translateEffectValue(value, options, type, target);
+    const timesValue = times ? `(${times}回)` : '';
+    if (type == 'status' && target == '指針') {
+      return `${conditionText}${conditionText ? 'の場合、' : ''}${delayText}指針[${
+        this.guidelineTranslation[value]
+      }]に変更`;
+    }
     if (options) {
       options.forEach(({ type, target, value }) => {
+        if (value == 0) return;
         if (type == 'increase_by_factor') {
           optionTexts[type] = `(${this.translateTargetName(target)}の${value}倍加算)`;
           return;
         }
-        if (type == 'increase_by_factor-1') {
-          optionTexts[type] = `(${this.translateTargetName(target)}${value}倍適用)`;
+        if (type == 'status_coef_bonus') {
+          optionTexts[type] = `(${this.translateTargetName(target)}効果${value}倍適用)`;
           return;
         }
         if (type == 'increase_by_percentage') {
@@ -279,14 +344,21 @@ export default class EntityTranslator {
       });
     }
     if (optionTexts['increase_by_percentage']) {
+      if (value > 0) {
+        return `${conditionText}${
+          conditionText ? 'の場合、' : ''
+        }${delayText}${effectType}${valueText}(${optionTexts['increase_by_percentage']}${
+          optionTexts['increase_by_factor']
+        }${optionTexts['status_coef_bonus']}${timesValue})`;
+      }
       return `${conditionText}${conditionText ? 'の場合、' : ''}${delayText}${
         optionTexts['increase_by_percentage']
-      }${optionTexts['increase_by_factor']}${optionTexts['increase_by_factor-1']}`;
+      }${optionTexts['increase_by_factor']}${optionTexts['status_coef_bonus']}${timesValue}`;
     }
     return `${conditionText}${
       conditionText ? 'の場合、' : ''
     }${delayText}${effectType}${valueText}${optionTexts['increase_by_factor']}${
-      optionTexts['increase_by_factor-1']
-    }`;
+      optionTexts['status_coef_bonus']
+    }${timesValue}`;
   }
 }

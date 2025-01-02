@@ -82,10 +82,30 @@ export class EvaluationCalculator {
       case '消費体力増加':
       case '元気増加無効':
       case '消費体力追加':
+      case '指針固定':
         return -100;
+
       case '指針':
+        if (status.value == 1) {
+          return (
+            (50 * player.parameter.getScale('average') * player.turnManager.remainTurn) /
+            player.turnManager.turnCount
+          );
+        } else if (status.value == 2) {
+          return (
+            (75 * player.parameter.getScale('average') * player.turnManager.remainTurn) /
+            player.turnManager.turnCount
+          );
+        } else if (status.value == 3) {
+          return 15 * player.parameter.getScale('average');
+        } else if (status.value == 4) {
+          return 20 * player.parameter.getScale('average');
+        } else if (status.value == 5) {
+          return 0;
+        }
       case '熱意':
       case '全力値':
+      case '次に使用したスキルカードの消費体力を0にする':
         return 0;
       default:
         console.log(`${status.name}がないよ`);
@@ -151,6 +171,7 @@ export class EvaluationCalculator {
           effect.value = EffectCalculator.calcValue(effect, player);
           return total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect, player);
       case 'スキルカード使用時、好印象の50%分パラメータ':
+      case 'スキルカード使用時、好印象の50%分パラメータ・好印象+1':
       case '好印象効果のスキルカード使用後、好印象の50%分のパラメータ':
           var effect = new Effect({
             type: 'score',
@@ -162,6 +183,13 @@ export class EvaluationCalculator {
 
       case '次に使用するスキルカードの効果を発動':
       case '次に使用するアクティブスキルカードの効果を発動':
+
+      case '元気効果のスキルカード使用後、好印象+1':
+      case '以降、ターン開始時、いずれかの指針の場合、すべてのスキルカードのパラメータ値増加+4':
+      case '残り3ターン以内のターン終了時、好印象の140%分のパラメータ上昇':
+      case '残り3ターン以内のターン終了時、好印象の180%分のパラメータ上昇':
+
+      case '以降、ターン開始時、好調2ターン':
       case '好印象効果':
       case '予約効果':
           return 0;

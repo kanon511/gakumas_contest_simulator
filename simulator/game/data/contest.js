@@ -13,7 +13,7 @@ export const data = [
       {
         name: 'ステージ1',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240511],
         plan: 'free',
         turnTypes: {
@@ -25,7 +25,7 @@ export const data = [
       {
         name: 'ステージ2',
         turn: 8,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240512],
         plan: 'sense',
         turnTypes: {
@@ -37,7 +37,7 @@ export const data = [
       {
         name: 'ステージ3',
         turn: 8,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240513],
         plan: 'logic',
         turnTypes: {
@@ -62,7 +62,7 @@ export const data = [
       {
         name: 'ステージ1',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240511],
         plan: 'free',
         turnTypes: {
@@ -74,7 +74,7 @@ export const data = [
       {
         name: 'ステージ2',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240612],
         plan: 'sense',
         turnTypes: {
@@ -86,7 +86,7 @@ export const data = [
       {
         name: 'ステージ3',
         turn: 10,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240613],
         plan: 'logic',
         turnTypes: {
@@ -111,7 +111,7 @@ export const data = [
       {
         name: 'ステージ1',
         turn: 10,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240621],
         plan: 'sense',
         turnTypes: {
@@ -123,7 +123,7 @@ export const data = [
       {
         name: 'ステージ2',
         turn: 8,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240622],
         plan: 'logic',
         turnTypes: {
@@ -135,7 +135,7 @@ export const data = [
       {
         name: 'ステージ3',
         turn: 8,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240623],
         plan: 'logic',
         turnTypes: {
@@ -160,7 +160,7 @@ export const data = [
       {
         name: 'ステージ1',
         turn: 10,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240711],
         plan: 'sense',
         turnTypes: {
@@ -172,7 +172,7 @@ export const data = [
       {
         name: 'ステージ2',
         turn: 10,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240612],
         plan: 'sense',
         turnTypes: {
@@ -184,7 +184,7 @@ export const data = [
       {
         name: 'ステージ3',
         turn: 8,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240713],
         plan: 'logic',
         turnTypes: {
@@ -209,7 +209,7 @@ export const data = [
       {
         name: 'ステージ1',
         turn: 10,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240711],
         plan: 'sense',
         turnTypes: {
@@ -221,7 +221,7 @@ export const data = [
       {
         name: 'ステージ2',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240722],
         plan: 'sense',
         turnTypes: {
@@ -233,7 +233,7 @@ export const data = [
       {
         name: 'ステージ3',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240723],
         plan: 'logic',
         turnTypes: {
@@ -258,7 +258,7 @@ export const data = [
       {
         name: 'ステージ1',
         turn: 8,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240811],
         plan: 'free',
         turnTypes: {
@@ -270,7 +270,7 @@ export const data = [
       {
         name: 'ステージ2',
         turn: 10,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240812],
         plan: 'sense',
         turnTypes: {
@@ -282,7 +282,7 @@ export const data = [
       {
         name: 'ステージ3',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240813],
         plan: 'logic',
         turnTypes: {
@@ -307,7 +307,7 @@ export const data = [
       {
         name: 'ステージ1',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240821],
         plan: 'free',
         turnTypes: {
@@ -319,7 +319,7 @@ export const data = [
       {
         name: 'ステージ2',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240822],
         plan: 'sense',
         turnTypes: {
@@ -331,7 +331,7 @@ export const data = [
       {
         name: 'ステージ3',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240813],
         plan: 'logic',
         turnTypes: {
@@ -356,7 +356,7 @@ export const data = [
       {
         name: 'ステージ1',
         turn: 8,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240911],
         plan: 'free',
         turnTypes: {
@@ -368,7 +368,7 @@ export const data = [
       {
         name: 'ステージ2',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240912],
         plan: 'sense',
         turnTypes: {
@@ -380,7 +380,7 @@ export const data = [
       {
         name: 'ステージ3',
         turn: 8,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240913],
         plan: 'logic',
         turnTypes: {
@@ -405,7 +405,7 @@ export const data = [
       {
         name: 'ステージ1',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240921],
         plan: 'free',
         turnTypes: {
@@ -418,7 +418,7 @@ export const data = [
       {
         name: 'ステージ2',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240922],
         plan: 'logic',
         turnTypes: {
@@ -431,7 +431,7 @@ export const data = [
       {
         name: 'ステージ3',
         turn: 8,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4240923],
         plan: 'logic',
         turnTypes: {
@@ -457,7 +457,7 @@ export const data = [
       {
         name: 'ステージ1',
         turn: 10,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4241011],
         plan: 'free',
         turnTypes: {
@@ -470,7 +470,7 @@ export const data = [
       {
         name: 'ステージ2',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4241012],
         plan: 'sense',
         turnTypes: {
@@ -483,7 +483,7 @@ export const data = [
       {
         name: 'ステージ3',
         turn: 8,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4241013],
         plan: 'logic',
         turnTypes: {
@@ -509,7 +509,7 @@ export const data = [
       {
         name: 'ステージ1',
         turn: 10,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4241021],
         plan: 'free',
         turnTypes: {
@@ -522,7 +522,7 @@ export const data = [
       {
         name: 'ステージ2',
         turn: 10,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4241022],
         plan: 'sense',
         turnTypes: {
@@ -535,7 +535,7 @@ export const data = [
       {
         name: 'ステージ3',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4241023],
         plan: 'logic',
         turnTypes: {
@@ -561,7 +561,7 @@ export const data = [
       {
         name: 'ステージ1',
         turn: 6,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4241111],
         plan: 'free',
         turnTypes: {
@@ -574,7 +574,7 @@ export const data = [
       {
         name: 'ステージ2',
         turn: 8,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4241112],
         plan: 'free',
         turnTypes: {
@@ -587,7 +587,7 @@ export const data = [
       {
         name: 'ステージ3',
         turn: 10,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4241113],
         plan: 'sense',
         turnTypes: {
@@ -602,31 +602,32 @@ export const data = [
   {
     id: 241124,
     name: '第13期コンテスト',
-    period: '2024/11/24 -  12/08',
+    period: '2024/11/24 - 12/09',
     criteria: {
       vocal: 35,
       dance: 35,
       visual: 30,
     },
+    paramCalcType: 'b',
     rank: ['vocal', 'dance', 'visual'],
     stages: [
       {
-        name: 'ステージ1（3,2,1）',
+        name: 'ステージ1',
         turn: 6,
-        stageEffects: [],
-        stagePItemIds: [4241111],
+        stageEffectIds: [],
+        stagePItemIds: [4241121],
         plan: 'free',
         turnTypes: {
-          vocal: 3,
+          vocal: 2,
           dance: 2,
-          visual: 1,
+          visual: 2,
         },
-        firstTurnFirstTypeProb: 1,
+        firstTurnFirstTypeProb: 0.95,
       },
       {
-        name: 'ステージ2（5,4,3）',
+        name: 'ステージ2',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4241122],
         plan: 'sense',
         turnTypes: {
@@ -634,12 +635,12 @@ export const data = [
           dance: 4,
           visual: 3,
         },
-        firstTurnFirstTypeProb: 0.88,
+        firstTurnFirstTypeProb: 0.85,
       },
       {
-        name: 'ステージ3（5,4,3）',
+        name: 'ステージ3',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4241123],
         plan: 'logic',
         turnTypes: {
@@ -647,14 +648,14 @@ export const data = [
           dance: 4,
           visual: 3,
         },
-        firstTurnFirstTypeProb: 0.88,
+        firstTurnFirstTypeProb: 0.85,
       },
     ],
   },
   {
-    id: 241209,
+    id: 241224,
     name: '第14期コンテスト',
-    period: '2024/12/09 -  12/23',
+    period: '2024/12/10 - 12/25',
     criteria: {
       vocal: 15,
       dance: 45,
@@ -663,9 +664,9 @@ export const data = [
     rank: ['dance', 'visual', 'vocal'],
     stages: [
       {
-        name: 'ステージ1（2,4,2）',
+        name: 'ステージ1',
         turn: 8,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4241211],
         plan: 'free',
         turnTypes: {
@@ -676,9 +677,9 @@ export const data = [
         firstTurnFirstTypeProb: 1,
       },
       {
-        name: 'ステージ2（2,6,4）',
+        name: 'ステージ2',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4241122],
         plan: 'sense',
         turnTypes: {
@@ -689,15 +690,67 @@ export const data = [
         firstTurnFirstTypeProb: 1,
       },
       {
-        name: 'ステージ3（2,6,4）',
+        name: 'ステージ3',
         turn: 12,
-        stageEffects: [],
+        stageEffectIds: [],
         stagePItemIds: [4241213],
         plan: 'logic',
         turnTypes: {
           vocal: 2,
           dance: 6,
           visual: 4,
+        },
+        firstTurnFirstTypeProb: 1,
+      },
+    ],
+  },
+  {
+    id: 250110,
+    name: '第15期コンテスト',
+    period: '2024/12/26 - 01/10',
+    criteria: {
+      vocal: 35,
+      dance: 20,
+      visual: 45,
+    },
+    rank: ['visual', 'vocal', 'dance'],
+    stages: [
+      {
+        name: 'ステージ1',
+        turn: 8,
+        stageEffectIds: [],
+        stagePItemIds: [4250111],
+        plan: 'free',
+        turnTypes: {
+          vocal: 2,
+          dance: 2,
+          visual: 4,
+        },
+        firstTurnFirstTypeProb: 1,
+      },
+      {
+        name: 'ステージ2',
+        turn: 12,
+        stageEffectIds: [],
+        stagePItemIds: [4250112],
+        plan: 'sense',
+        turnTypes: {
+          vocal: 4,
+          dance: 2,
+          visual: 6,
+        },
+        firstTurnFirstTypeProb: 1,
+      },
+      {
+        name: 'ステージ3',
+        turn: 12,
+        stageEffectIds: [],
+        stagePItemIds: [4250113],
+        plan: 'logic',
+        turnTypes: {
+          vocal: 4,
+          dance: 2,
+          visual: 6,
         },
         firstTurnFirstTypeProb: 1,
       },

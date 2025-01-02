@@ -1,22 +1,25 @@
 <template>
   <div class="parent">
-    <div class="vocal" :style="`width: ${vocal}%;`">
-      <div class="line"></div>
+    <div class="text-vocal-text-1" :style="`width: ${vocal}%;`">
+      <div v-if="props.vocalTurn">{{ vocalTurn }}T</div>
+      <div class="bg-vocal-bg-1 line"></div>
       <div>{{ vocal }}%</div>
     </div>
-    <div class="dance" :style="`width: ${dance}%;`">
-      <div class="line"></div>
+    <div class="text-dance-text-1" :style="`width: ${dance}%;`">
+      <div v-if="props.danceTurn">{{ danceTurn }}T</div>
+      <div class="bg-dance-bg-1 line"></div>
       <div>{{ dance }}%</div>
     </div>
-    <div class="visual" :style="`width: ${visual}%;`">
-      <div class="line"></div>
+    <div class="text-visual-text-1" :style="`width: ${visual}%;`">
+      <div v-if="props.visualTurn">{{ visualTurn }}T</div>
+      <div class="bg-visual-bg-1 line"></div>
       <div>{{ visual }}%</div>
     </div>
   </div>
 </template>
 
 <script setup>
-const props = defineProps(['vocal', 'dance', 'visual']);
+const props = defineProps(['vocal', 'dance', 'visual', 'vocalTurn', 'danceTurn', 'visualTurn']);
 </script>
 
 <style scoped>
@@ -31,23 +34,5 @@ const props = defineProps(['vocal', 'dance', 'visual']);
 .line {
   height: 4px;
   background-color: gray;
-}
-.vocal {
-  color: #b71c1c;
-}
-.vocal .line {
-  background-color: #ff3366;
-}
-.dance {
-  color: #0d47a1;
-}
-.dance .line {
-  background-color: #0066ff;
-}
-.visual {
-  color: #f57f17;
-}
-.visual .line {
-  background-color: #ffcc00;
 }
 </style>

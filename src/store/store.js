@@ -1,6 +1,9 @@
-import { ref, watchEffect, computed, watch } from 'vue';
-import DataLoader from '/simulator/game/data/DataLoader.js';
+import { ref, watchEffect, computed, watch, toRaw } from 'vue';
+import DataLoader from '#/game/data/DataLoader.js';
+
 DataLoader.initialize();
+
+export const totalRunCount = ref(1000);
 
 export const contestList = Array.from(DataLoader.contest_map)
   .map((item) => item[1])
@@ -37,7 +40,13 @@ export const criteria = ref({
   visual: 0,
 });
 
-export const season = ref(0);
+export const typeTurns = ref({
+  vocal: 0,
+  dance: 0,
+  visual: 0,
+});
+
+export const paramCalcType = ref('a');
 
 function correct(input, base) {
   const number = Number(input);
@@ -64,6 +73,7 @@ export const contest = ref(null);
 export const contestStage = ref(null);
 export const contestPlan = ref('');
 export const contestPItemIds = ref([]);
+export const contestStageEffectIds = ref([]);
 
 watch(contestStageId, () => {
   let [contestId, stageId] = contestStageId.value.split(':').map(Number);
@@ -74,9 +84,11 @@ watch(contestStageId, () => {
   contest.value = DataLoader.get_contest_by_id(contestId);
   contestStage.value = contest.value.stages[stageId];
   criteria.value = contest.value.criteria;
-  season.value = contest.value.id;
+  typeTurns.value = contestStage.value.turnTypes;
+  paramCalcType.value = contest.value.paramCalcType ?? 'a';
   contestPlan.value = contestStage.value.plan;
   contestPItemIds.value = contestStage.value.stagePItemIds;
+  contestStageEffectIds.value = contestStage.value.stageEffectIds;
 });
 
 const contestParam = urlParams.get('contest_stage');
@@ -199,23 +211,40 @@ export const getData = () => {
   if (!selectedPIdol.value) {
     return;
   }
-  const skillCardIds = [];
+  // const skillCardIds = [];
+  const skillCards = [];
   selectedCardsList.value.forEach((deck, deckIndex) => {
     deck.forEach((card, index) => {
       if (card && availableSelectedCardsList.value[deckIndex][index]) {
-        skillCardIds.push(card.id);
+        // skillCardIds.push(card.id);
+        skillCards.push(JSON.parse(JSON.stringify(card)));
       }
     });
   });
   switch (selectedPIdol.value.plan) {
     case 'sense':
-      skillCardIds.push(1010010, 1010010, 1011010, 1011020, 1021010, 1021010, 1021020, 1021020);
+      // skillCardIds.push(1010010, 1010010, 1011010, 1011020, 1021010, 1021010, 1021020, 1021020);
+      skillCards.push(
+        ...[1010010, 1010010, 1011010, 1011020, 1021010, 1021010, 1021020, 1021020].map((id) =>
+          DataLoader.getCardById(id)
+        )
+      );
       break;
     case 'logic':
-      skillCardIds.push(1012010, 1012020, 1020010, 1020010, 1022010, 1022010, 1022020, 1022020);
+      // skillCardIds.push(1012010, 1012020, 1020010, 1020010, 1022010, 1022010, 1022020, 1022020);
+      skillCards.push(
+        ...[1012010, 1012020, 1020010, 1020010, 1022010, 1022010, 1022020, 1022020].map((id) =>
+          DataLoader.getCardById(id)
+        )
+      );
       break;
     case 'anomaly':
-      skillCardIds.push(1010010, 1010010, 1013010, 1013010, 1023010, 1023010, 1013020, 1013020);
+      // skillCardIds.push(1010010, 1010010, 1013020, 1013030, 1023010, 1023010, 1023020, 1023020);
+      skillCards.push(
+        ...[1010010, 1010010, 1013020, 1013030, 1023010, 1023010, 1023020, 1023020].map((id) =>
+          DataLoader.getCardById(id)
+        )
+      );
       break;
   }
   const pItemIds = [];
@@ -242,6 +271,7 @@ export const getData = () => {
       visual: contestStage.value.turnTypes.visual,
     },
     rank: [contest.value.rank[0], contest.value.rank[1], contest.value.rank[2]],
+    stageEffects: contestStageEffectIds.value.map((id) => DataLoader.getStageEffectById(id)),
     firstTurnFirstTypeProb: contestStage.value.firstTurnFirstTypeProb,
     parameter: {
       vocal: status.value.vocal,
@@ -253,8 +283,10 @@ export const getData = () => {
     trend: selectedPIdol.value.trend,
     pItemIds: pItemIds,
 
-    skillCardIds: skillCardIds,
+    // skillCardIds: skillCardIds,
+    skillCards: skillCards,
     count: 2000,
+    seed: Date.now(),
   };
 };
 

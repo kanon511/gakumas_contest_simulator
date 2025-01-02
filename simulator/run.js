@@ -10,8 +10,10 @@ DataLoader.initialize();
 
 export function run(data, isLog) {
   const input = {
-    cardIds: data.skillCardIds,
+    // cardIds: data.skillCardIds,
+    cards: data.skillCards,
     pItemIds: data.pItemIds,
+    stageEffects: data.stageEffects,
     stageData: {
       turnCount: data.turn,
       criteria: data.criteria,
@@ -27,6 +29,7 @@ export function run(data, isLog) {
       plan: data.plan,
       trend: data.trend,
     },
+    seed: data.seed,
   };
   const player = new Player(input);
   player.init();
@@ -61,14 +64,14 @@ export function run(data, isLog) {
 
     if (isLog) {
       console.log(actionMap);
-      // for (const action of allActions) {
-      //   console.log(
-      //     action.actions
-      //       .map(([cardIndex]) => player.deck.cards[cardIndex]?.name ?? '休憩')
-      //       .join(' => '),
-      //     action.score
-      //   );
-      // }
+      for (const action of allActions) {
+        console.log(
+          action.actions
+            .map(([cardIndex]) => player.deck.cards[cardIndex]?.name ?? '休憩')
+            .join(' => '),
+          action.score
+        );
+      }
     }
 
     const currentTurn = player.turnManager.currentTurn;
@@ -79,16 +82,22 @@ export function run(data, isLog) {
       //   break;
       // }
 
-      player.log.add('show', null, '手札');
+      const handCardLogs = [];
 
       for (const cardInfo of player.getHandCardInfo()) {
         if (cardInfo.available) {
           const score = actionMap.get(cardInfo.cardIndex);
-          player.log.add('message', null, `○${cardInfo.card.name}(${score ?? '-'})`);
+          if (cardInfo.cardIndex == action[0]) {
+            handCardLogs.push(`${cardInfo.card.id}_${score ?? '-'}_2`);
+          } else {
+            handCardLogs.push(`${cardInfo.card.id}_${score ?? '-'}_1`);
+          }
         } else {
-          player.log.add('message', null, `×${cardInfo.card.name}(-)`);
+          handCardLogs.push(`${cardInfo.card.id}_-_0`);
         }
       }
+
+      player.log.add('cards', handCardLogs.join(':'));
 
       if (actionIndex + 1 < bestActionPath.actions.length) {
         actionMap.set(
@@ -96,7 +105,6 @@ export function run(data, isLog) {
           actionMap.get(bestActionPath.actions[actionIndex][0])
         );
       }
-      player.log.add('end');
 
       // const action = bestActionPath.actions[0];
       const actionName = player.deck.cards[action[0]]?.name ?? '休憩';

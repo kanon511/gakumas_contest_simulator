@@ -2,10 +2,12 @@
   <v-container>
     <v-row>
       <v-col cols="12" sm="6" md="5" lg="5" xl="5" xxl="5">
-        <SimulatorInput @run-simulation="runSimulation" :waitingFinishedRun="waitingFinishedRun" />
-        <div class="mt-2">
-          运行次数：<input type="number" v-model.number="totalRuns" class="status-input" />
-        </div>
+        <SimulatorInput
+          @run-simulation="simulate"
+          :simulationLoading="simulationLoading"
+          :simulationDone="simulationDone"
+          :simulationTotal="simulationTotal"
+        />
         <div class="link-container mt-2">
           <v-btn target="_blank" href="https://katabami83.github.io/gakumas_contest_simulator/"> @katabami83 </v-btn>
           <v-btn target="_blank" href="https://gkcontest.ris.moe/"> @risりす </v-btn>
@@ -22,52 +24,51 @@
 import SimulatorInput from '@/components/common/SimulatorInput.vue';
 import SimulatorOutput from '@/components/common/SimulatorOutput.vue';
 import { ref } from 'vue';
-import { getData } from '@/store/store.js';
+import { getData, totalRunCount } from '@/store/store.js';
 
 const simulationResult = ref(null);
-const waitingFinishedRun = ref(false);
+const simulationLoading = ref(false);
+const simulationDone = ref(0);
+const simulationTotal = ref(1);
 
-let totalRuns = ref(1000);
-
-const runSimulation = async () => {
-  if (waitingFinishedRun.value) {
+// シミュレーション開始
+const simulate = async () => {
+  if (simulationLoading.value) {
     return;
   }
-  waitingFinishedRun.value = true;
-  const result = await simulate();
-  waitingFinishedRun.value = false;
+  //
+  const run_data = getData();
+  console.log(run_data);
+  if (!run_data) {
+    alert('アイドルを選択してください');
+    return;
+  }
+  simulationLoading.value = true;
+  console.time('run');
+  const result = await runWebWorker(run_data).catch((error) =>
+    alert(`Worker error: ${error.message} in ${error.filename} at line ${error.lineno}`)
+  );
+  console.timeEnd('run');
+  //
+  simulationLoading.value = false;
+  simulationDone.value = 0;
   if (result) {
     simulationResult.value = result;
   }
 };
 
-const simulate = async () => {
-  const run_data = getData();
-  // console.log(run_data);
-  if (!run_data) {
-    alert('アイドルを選択してください');
-    return;
-  }
-
-  console.time('run');
-  const result = await runWebWorker(run_data);
-  console.timeEnd('run');
-  return result;
-};
-
+//
 async function runWebWorker(data) {
-  return new Promise((resolve) => {
+  return new Promise((resolve, reject) => {
     let numWorkers = 1;
-    if (totalRuns.value > 100){
-      if (navigator.hardwareConcurrency) {
-        numWorkers = Math.min(navigator.hardwareConcurrency, 8);
-      }
+    if (navigator.hardwareConcurrency) {
+      numWorkers = Math.min(navigator.hardwareConcurrency, 16);
     }
-
-    const runsPerWorker = Math.ceil(totalRuns.value / numWorkers);
+    const runsPerWorker = Math.ceil(totalRunCount.value / numWorkers);
+    const totalRuns = runsPerWorker * numWorkers;
+    simulationTotal.value = totalRuns;
     const rndLogNumber = Math.floor(Math.random() * numWorkers);
 
-    // let completedRuns = 0;
     let completedWorkers = 0;
     let results = {
       scoreList: [],
@@ -79,11 +80,16 @@ async function runWebWorker(data) {
       const worker = new Worker(new URL('/src/worker.js', import.meta.url), {
         type: 'module',
       });
+      data.seed += totalRuns * 2;
       worker.postMessage({ runs: runsPerWorker, data: data });
 
       worker.onmessage = (e) => {
-        completedWorkers;
         const result = e.data;
+
+        if (e.data.type == 'log') {
+          simulationDone.value++;
+          return;
+        }
 
         results.scoreList = results.scoreList.concat(result.scoreList);
         if (!results.minLog || results.minLog.finalScore > result.minLog.finalScore) {
@@ -105,6 +111,7 @@ async function runWebWorker(data) {
       worker.onerror = (error) => {
         console.log(`Worker error: ${error.message} in ${error.filename} at line ${error.lineno}`);
         worker.terminate();
+        reject(error);
       };
     }
   });
@@ -120,5 +127,20 @@ async function runWebWorker(data) {
 
 .link-container > *:not(:first-child) {
   margin-left: 5px;
+}
+</style>
+
+<style>
+.v-container {
+  background-color: rgb(var(--v-theme-bg-1));
+}
+.v-container,
+.v-card,
+.v-field__input,
+input {
+  color: rgb(var(--v-theme-text-1));
+}
+.v-theme--dark img {
+  filter: saturate(90%) brightness(75%) contrast(135%);
 }
 </style>
