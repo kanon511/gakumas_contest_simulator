@@ -66,6 +66,10 @@ export default class Player extends Clone {
     this.remainExtraAction = 0;
     /** 消費したHP @type {Number} */
     this.consumedHp = 0;
+    /** 累計強気回数 @type {Number} */
+    this.totalConcentration = 0;
+    /** 累計温存回数 @type {Number} */
+    this.totalPreservation = 0;
     /** 累計全力値 @type {Number} */
     this.totalMantra = 0;
     /** 累計全力回数 @type {Number} */
@@ -626,6 +630,12 @@ export default class Player extends Clone {
                 }
               }
               let setValue = value;
+              if (guideline != 1 && guideline != 2 && (value == 1 || value == 2)) {
+                this.totalPreservation += 1;
+              }
+              if (guideline != 3 && guideline != 4 && (value == 3 || value == 4)) {
+                this.totalConcentration += 1;
+              }
               if (guideline == 1 && value == 1) {
                 setValue = 2;
                 isChangeGuideline = false;

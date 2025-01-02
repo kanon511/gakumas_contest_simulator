@@ -15,7 +15,11 @@
     </v-col>
   </v-row>
   <v-row>
-    <v-col cols="12">
+    <v-col cols="4">
+      运行次数：
+      <input type="number" v-model.number="totalRunCount" class="status-input" />
+    </v-col>
+    <v-col cols="8">
       <v-btn
         :loading="props.simulationLoading"
         color="green-darken-2"
@@ -51,6 +55,7 @@ import { ref } from 'vue';
 import ContestSelector from './ContestSelector.vue';
 import StatusInputor from './StatusInputor.vue';
 import CompositionBuilder from './CompositionBuilder.vue';
+import { totalRunCount } from '@/store/store.js';
 
 const emits = defineEmits(['runSimulation']);
 const sendEvent = () => {

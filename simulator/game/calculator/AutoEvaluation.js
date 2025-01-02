@@ -114,6 +114,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "2": {
@@ -222,6 +234,18 @@ const AutoEvaluation = {
                     "examStatusEnchantCoefficientPermil": 1.0
                 },
                 "ProduceExamAutoEvaluationType_HoldCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
                 }
@@ -334,6 +358,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "4": {
@@ -442,6 +478,18 @@ const AutoEvaluation = {
                     "examStatusEnchantCoefficientPermil": 1.0
                 },
                 "ProduceExamAutoEvaluationType_HoldCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
                 }
@@ -554,6 +602,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "6": {
@@ -664,6 +724,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "7": {
@@ -772,6 +844,18 @@ const AutoEvaluation = {
                     "examStatusEnchantCoefficientPermil": 1.0
                 },
                 "ProduceExamAutoEvaluationType_HoldCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
                 }
@@ -888,6 +972,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "2": {
@@ -996,6 +1092,18 @@ const AutoEvaluation = {
                     "examStatusEnchantCoefficientPermil": 1.0
                 },
                 "ProduceExamAutoEvaluationType_HoldCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
                 }
@@ -1108,6 +1216,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "4": {
@@ -1216,6 +1336,18 @@ const AutoEvaluation = {
                     "examStatusEnchantCoefficientPermil": 1.0
                 },
                 "ProduceExamAutoEvaluationType_HoldCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
                 }
@@ -1328,6 +1460,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "6": {
@@ -1438,6 +1582,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "7": {
@@ -1546,6 +1702,18 @@ const AutoEvaluation = {
                     "examStatusEnchantCoefficientPermil": 1.0
                 },
                 "ProduceExamAutoEvaluationType_HoldCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
                 }
@@ -1662,6 +1830,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "2": {
@@ -1770,6 +1950,18 @@ const AutoEvaluation = {
                     "examStatusEnchantCoefficientPermil": 1.0
                 },
                 "ProduceExamAutoEvaluationType_HoldCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
                 }
@@ -1882,6 +2074,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "4": {
@@ -1990,6 +2194,18 @@ const AutoEvaluation = {
                     "examStatusEnchantCoefficientPermil": 1.0
                 },
                 "ProduceExamAutoEvaluationType_HoldCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
                 }
@@ -2102,6 +2318,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "6": {
@@ -2212,6 +2440,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "7": {
@@ -2320,6 +2560,18 @@ const AutoEvaluation = {
                     "examStatusEnchantCoefficientPermil": 1.0
                 },
                 "ProduceExamAutoEvaluationType_HoldCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
                 }
@@ -2436,6 +2688,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "2": {
@@ -2544,6 +2808,18 @@ const AutoEvaluation = {
                     "examStatusEnchantCoefficientPermil": 1.0
                 },
                 "ProduceExamAutoEvaluationType_HoldCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
                 }
@@ -2656,6 +2932,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "4": {
@@ -2764,6 +3052,18 @@ const AutoEvaluation = {
                     "examStatusEnchantCoefficientPermil": 1.0
                 },
                 "ProduceExamAutoEvaluationType_HoldCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
                 }
@@ -2876,6 +3176,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "6": {
@@ -2986,6 +3298,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "7": {
@@ -3094,6 +3418,18 @@ const AutoEvaluation = {
                     "examStatusEnchantCoefficientPermil": 1.0
                 },
                 "ProduceExamAutoEvaluationType_HoldCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
                     "evaluation": 1.0,
                     "examStatusEnchantCoefficientPermil": 1.0
                 }
@@ -3210,6 +3546,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 0.0,
                     "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "2": {
@@ -3320,6 +3668,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 24353.0,
                     "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "3": {
@@ -3430,6 +3790,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 24353.0,
                     "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "4": {
@@ -3540,6 +3912,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 24353.0,
                     "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "5": {
@@ -3650,6 +4034,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 24353.0,
                     "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "6": {
@@ -3760,6 +4156,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 9741.0,
                     "examStatusEnchantCoefficientPermil": 2500.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "7": {
@@ -3870,6 +4278,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 9741.0,
                     "examStatusEnchantCoefficientPermil": 2500.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "8": {
@@ -3980,6 +4400,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 9741.0,
                     "examStatusEnchantCoefficientPermil": 2500.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "9": {
@@ -4090,6 +4522,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 9741.0,
                     "examStatusEnchantCoefficientPermil": 2500.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "10": {
@@ -4200,6 +4644,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 7047.0,
                     "examStatusEnchantCoefficientPermil": 3456.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "11": {
@@ -4310,6 +4766,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 7047.0,
                     "examStatusEnchantCoefficientPermil": 3456.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "12": {
@@ -4420,6 +4888,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 7047.0,
                     "examStatusEnchantCoefficientPermil": 3456.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "13": {
@@ -4530,6 +5010,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 7047.0,
                     "examStatusEnchantCoefficientPermil": 3456.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "14": {
@@ -4640,6 +5132,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 4678.0,
                     "examStatusEnchantCoefficientPermil": 5206.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             }
         }
@@ -4754,6 +5258,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 0.0,
                     "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "2": {
@@ -4864,6 +5380,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 24353.0,
                     "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "3": {
@@ -4974,6 +5502,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 24353.0,
                     "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "4": {
@@ -5084,6 +5624,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 24353.0,
                     "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "5": {
@@ -5194,6 +5746,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 24353.0,
                     "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "6": {
@@ -5304,6 +5868,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 9741.0,
                     "examStatusEnchantCoefficientPermil": 2500.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "7": {
@@ -5414,6 +5990,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 9741.0,
                     "examStatusEnchantCoefficientPermil": 2500.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "8": {
@@ -5524,6 +6112,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 9741.0,
                     "examStatusEnchantCoefficientPermil": 2500.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "9": {
@@ -5634,6 +6234,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 9741.0,
                     "examStatusEnchantCoefficientPermil": 2500.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "10": {
@@ -5744,6 +6356,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 7047.0,
                     "examStatusEnchantCoefficientPermil": 3456.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "11": {
@@ -5854,6 +6478,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 7047.0,
                     "examStatusEnchantCoefficientPermil": 3456.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "12": {
@@ -5964,6 +6600,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 7047.0,
                     "examStatusEnchantCoefficientPermil": 3456.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "13": {
@@ -6074,6 +6722,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 7047.0,
                     "examStatusEnchantCoefficientPermil": 3456.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             },
             "14": {
@@ -6184,6 +6844,18 @@ const AutoEvaluation = {
                 "ProduceExamAutoEvaluationType_HoldCount": {
                     "evaluation": 4678.0,
                     "examStatusEnchantCoefficientPermil": 5206.0
+                },
+                "ProduceExamAutoEvaluationType_DrawCardCount": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_RemainTurn": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceExamAutoEvaluationType_ExamAntiDebuff": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
                 }
             }
         }
@@ -6197,16 +6869,18 @@ const AutoTriggerEvaluation = {
     "e_trigger-exam_card_play-p_card_search-playing-0_1": 1000,
     "e_trigger-exam_end_turn": 1000,
     "e_trigger-exam_end_turn-lesson_buff_up-3": 800,
+    "e_trigger-exam_end_turn-remaining_turn-1": 1000,
+    "e_trigger-exam_end_turn-remaining_turn-3": 1000,
     "e_trigger-exam_end_turn-review_up-3": 800,
     "e_trigger-exam_stance_change_count_interval-1": 850,
     "e_trigger-exam_start_turn-not-no_stance": 900,
     "e_trigger-exam_status_change-exam_full_power_point": 850,
     "e_trigger-none-concentration_up": 0,
+    "e_trigger-none-full_power_change_count_up-1": 1000,
     "e_trigger-none-full_power_point_up-1": 900,
-    "e_trigger-none-full_power_up": 1000,
+    "e_trigger-none-full_power_up": 2000,
     "e_trigger-none-not-no_stance": 1000,
-    "e_trigger-none-preservation_up": 0,
-    "default": 1,
+    "e_trigger-none-preservation_up": 0
 }
 
 //import { onTest } from "../../setting.js";
@@ -6228,21 +6902,25 @@ export default class AutoEvaluationData {
         '絶好調':"ProduceExamAutoEvaluationType_ParameterBuffMultiplePerTurn",
         '好調_f':"ProduceExamAutoEvaluationType_ParameterBuffOverTurn",
         'extra_turn':"ProduceExamAutoEvaluationType_ExamExtraTurn",
-        //"ProduceExamAutoEvaluationType_ExamConcentration",//强气
-        //"ProduceExamAutoEvaluationType_ExamPreservation",//温存
-        //"ProduceExamAutoEvaluationType_ExamFullPower",//全力
-        //"ProduceExamAutoEvaluationType_ExamFullPowerPointTotal",//全力总点数
-        //"ProduceExamAutoEvaluationType_ExamConcentrationCount",//强气获得次数
-        //"ProduceExamAutoEvaluationType_ExamPreservationCount",//温存获得次数
-        //"ProduceExamAutoEvaluationType_ExamFullPowerCount",//全力获得次数
+        '強気':"ProduceExamAutoEvaluationType_ExamConcentration",
+        '温存':"ProduceExamAutoEvaluationType_ExamPreservation",
+        '全力':"ProduceExamAutoEvaluationType_ExamFullPower",
+        "totalMantra":"ProduceExamAutoEvaluationType_ExamFullPowerPointTotal",
+        'totalConcentration':"ProduceExamAutoEvaluationType_ExamConcentrationCount",
+        'totalPreservation':"ProduceExamAutoEvaluationType_ExamPreservationCount",
+        "totalFullpower":"ProduceExamAutoEvaluationType_ExamFullPowerCount",
         '手牌数':"ProduceExamAutoEvaluationType_HoldCount",
+        '牌堆数':"ProduceExamAutoEvaluationType_DrawCardCount",
+        'RemainTurn':"ProduceExamAutoEvaluationType_RemainTurn",
+        //"ProduceExamAutoEvaluationType_ExamAntiDebuff",
     };
     static jobNameToIdMapping = {
         '好調':"ProduceExamEffectType_ExamParameterBuff",
         '集中':"ProduceExamEffectType_ExamLessonBuff",
         '好印象':"ProduceExamEffectType_ExamReview",
-        'やる気':"ProduceExamEffectType_ExamCardPlayAggressive"
-        
+        'やる気':"ProduceExamEffectType_ExamCardPlayAggressive",
+        "強気":"ProduceExamEffectType_ExamConcentration",
+        "全力":"ProduceExamEffectType_ExamFullPower",
     };
     static calculateTurnMapping = {
         'sense': 2,
@@ -6411,7 +7089,13 @@ export default class AutoEvaluationData {
             + player.genki * AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["genki"]]["evaluation"]
             + player.hp * AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["hp"]]["evaluation"]
             + player.turnManager.extraTurn * AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["extra_turn"]]["evaluation"]
-            + player.deck.handCardIndexes.length * AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["手牌数"]]["evaluation"];
+            + player.totalMantra * AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["totalMantra"]]["evaluation"]
+            + player.totalFullpower * AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["totalConcentration"]]["evaluation"]
+            + player.totalFullpower * AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["totalPreservation"]]["evaluation"]
+            + player.totalFullpower * AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["totalFullpower"]]["evaluation"]
+            + player.deck.handCardIndexes.length * AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["手牌数"]]["evaluation"]
+            + player.deck.drawPileIndexes.length * AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["牌堆数"]]["evaluation"]
+            + player.turnManager.remainTurn * AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["RemainTurn"]]["evaluation"];
     }
 
     /**
@@ -6422,10 +7106,6 @@ export default class AutoEvaluationData {
      */
     static get_status_evaluation (status, player){
         let eva = 0;
-        if (!this.effectNameToIdMapping[status.name]){
-            return eva;
-        }
-
         let remainTurn = player.turnManager.remainTurn;
         let rawRemainTurn = (remainTurn - player.turnManager.extraTurn)/this.calculateTurnMapping[player.plan]+1;
         if (rawRemainTurn < 1){
@@ -6433,6 +7113,25 @@ export default class AutoEvaluationData {
         }
         if (!AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn]){
             rawRemainTurn = AutoEvaluation["maxRemainingTerm"];
+        }
+
+        if (!this.effectNameToIdMapping[status.name]){
+            if (status.name == "指針"){
+                switch (status.value){
+                    case 1:
+                    case 2:
+                        eva += AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["温存"]]["evaluation"] * status.value;
+                        break;
+                    case 3:
+                    case 4:
+                        eva += AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["強気"]]["evaluation"] * (status.value - 2);
+                        break;
+                    case 5:
+                        eva += AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["全力"]]["evaluation"];
+                        break;
+                }
+            }
+            return eva;
         }
 
         if (status.isDecay){
