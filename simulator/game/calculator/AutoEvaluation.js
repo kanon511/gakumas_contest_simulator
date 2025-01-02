@@ -6872,15 +6872,15 @@ const AutoTriggerEvaluation = {
     "e_trigger-exam_end_turn-remaining_turn-1": 1000,
     "e_trigger-exam_end_turn-remaining_turn-3": 1000,
     "e_trigger-exam_end_turn-review_up-3": 800,
-    "e_trigger-exam_stance_change_count_interval-1": 850,
-    "e_trigger-exam_start_turn-not-no_stance": 900,
-    "e_trigger-exam_status_change-exam_full_power_point": 850,
-    "e_trigger-none-concentration_up": 0,
-    "e_trigger-none-full_power_change_count_up-1": 1000,
-    "e_trigger-none-full_power_point_up-1": 900,
-    "e_trigger-none-full_power_up": 2000,
-    "e_trigger-none-not-no_stance": 1000,
-    "e_trigger-none-preservation_up": 0
+    "e_trigger-exam_stance_change_count_interval-1": 850,//指针变更
+    "e_trigger-exam_start_turn-not-no_stance": 900,//回合开始时拥有指针时
+    "e_trigger-exam_status_change-exam_full_power_point": 850,//全力值增加后
+    "e_trigger-none-concentration_up": 0,//强气的场合
+    "e_trigger-none-full_power_change_count_up-1": 1000,//变更全力的次数大于一时
+    "e_trigger-none-full_power_point_up-1": 900,//全力值大于一时
+    "e_trigger-none-full_power_up": 2000,//全力的场合
+    "e_trigger-none-not-no_stance": 1000,//拥有指针时
+    "e_trigger-none-preservation_up": 0//温存的场合
 }
 
 //import { onTest } from "../../setting.js";
@@ -6948,6 +6948,7 @@ export default class AutoEvaluationData {
                 return "e_trigger-exam_card_play-p_card_search-mental_skill-playing-0_1";
             case 'スキルカード使用時、好印象の30%分パラメータ':
             case 'スキルカード使用時、好印象の50%分パラメータ':
+            case 'スキルカード使用時、好印象の50%分パラメータ・好印象+1':
                 return "e_trigger-exam_card_play-p_card_search-playing-0_1";
             case 'ターン終了時スコア+4':
             case 'ターン終了時、好印象+1':
@@ -6956,6 +6957,11 @@ export default class AutoEvaluationData {
                 return "e_trigger-exam_end_turn-lesson_buff_up-3";
             case 'ターン終了時、好印象が3以上の場合、好印象+3':
                 return "e_trigger-exam_end_turn-review_up-3";
+            case '残り3ターン以内のターン終了時、好印象の140%分のパラメータ上昇':
+            case '残り3ターン以内のターン終了時、好印象の180%分のパラメータ上昇':
+                return "e_trigger-exam_end_turn-remaining_turn-3";
+            case '最終ターン終了時、スコア+15(集中効果2.5倍適用)':
+                return "e_trigger-exam_end_turn-remaining_turn-1";
             default:
                 return "default";
         }

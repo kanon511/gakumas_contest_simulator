@@ -136,6 +136,11 @@ export class EvaluationCalculator {
           effect.value = EffectCalculator.calcValue(effect, player);
           return total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect, player);
       
+      case '最終ターン終了時、スコア+15(集中効果2.5倍適用)':
+          var effect = new Effect({ type: 'score', value: 4, options: [{ type: 'status_coef_bonus', target: '集中', value: 2.5 }] });
+          effect.value = EffectCalculator.calcValue(effect, player);
+          return total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect, player);
+      
       case 'アクティブスキルカード使用時集中+1':
           var effect = new Effect({ type: '集中', value: 1 });
           effect.value = EffectCalculator.calcValue(effect, player);
@@ -171,7 +176,6 @@ export class EvaluationCalculator {
           effect.value = EffectCalculator.calcValue(effect, player);
           return total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect, player);
       case 'スキルカード使用時、好印象の50%分パラメータ':
-      case 'スキルカード使用時、好印象の50%分パラメータ・好印象+1':
       case '好印象効果のスキルカード使用後、好印象の50%分のパラメータ':
           var effect = new Effect({
             type: 'score',
@@ -180,15 +184,39 @@ export class EvaluationCalculator {
           });
           effect.value = EffectCalculator.calcValue(effect, player);
           return total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect, player);
+      case '残り3ターン以内のターン終了時、好印象の140%分のパラメータ上昇':
+          var effect = new Effect({
+            type: 'score',
+            value: 0,
+            options: [{ type: 'increase_by_percentage', target: '好印象', value: 140 }],
+          });
+          effect.value = EffectCalculator.calcValue(effect, player);
+          return total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect, player);
+      case '残り3ターン以内のターン終了時、好印象の180%分のパラメータ上昇':
+          var effect = new Effect({
+            type: 'score',
+            value: 0,
+            options: [{ type: 'increase_by_percentage', target: '好印象', value: 180 }],
+          });
+          effect.value = EffectCalculator.calcValue(effect, player);
+          return total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect, player);
+      
+      case 'スキルカード使用時、好印象の50%分パラメータ・好印象+1':
+          var effect1 = new Effect({
+            type: 'score',
+            value: 0,
+            options: [{ type: 'increase_by_percentage', target: '好印象', value: 50 }],
+          });
+          effect1.value = EffectCalculator.calcValue(effect1, player);
+          var effect2 = new Effect({ type: '好印象', value: 1 });
+          effect2.value = EffectCalculator.calcValue(effect2, player);
+          return total * (AutoEvaluationData.get_enchant_coefficient_evaluation(effect1, player) + total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect2, player, true));
+
+      case '以降、ターン開始時、いずれかの指針の場合、すべてのスキルカードのパラメータ値増加+4':
+          return 0;
 
       case '次に使用するスキルカードの効果を発動':
       case '次に使用するアクティブスキルカードの効果を発動':
-
-      case '元気効果のスキルカード使用後、好印象+1':
-      case '以降、ターン開始時、いずれかの指針の場合、すべてのスキルカードのパラメータ値増加+4':
-      case '残り3ターン以内のターン終了時、好印象の140%分のパラメータ上昇':
-      case '残り3ターン以内のターン終了時、好印象の180%分のパラメータ上昇':
-
       case '以降、ターン開始時、好調2ターン':
       case '好印象効果':
       case '予約効果':

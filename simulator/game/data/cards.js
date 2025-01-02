@@ -6319,10 +6319,9 @@ export const data = [
     effects: [
       { type: 'status', target: '集中', value: 5 },
       {
-        type: 'score',
-        value: 15,
-        delay: -1,
-        options: [{ type: 'status_coef_bonus', target: '集中', value: 2.5 }],
+        type: 'status',
+        target: '最終ターン終了時、スコア+15(集中効果2.5倍適用)',
+        value: 1,
       },
     ],
     limit: 1,
@@ -6339,10 +6338,9 @@ export const data = [
     effects: [
       { type: 'status', target: '集中', value: 7 },
       {
-        type: 'score',
-        value: 15,
-        delay: -1,
-        options: [{ type: 'status_coef_bonus', target: '集中', value: 2.5 }],
+        type: 'status',
+        target: '最終ターン終了時、スコア+15(集中効果2.5倍適用)',
+        value: 1,
       },
     ],
     limit: 1,
