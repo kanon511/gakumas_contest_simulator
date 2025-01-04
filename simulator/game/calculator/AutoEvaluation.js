@@ -6882,6 +6882,2022 @@ const AutoTriggerEvaluation = {
     "e_trigger-none-not-no_stance": 1000,//拥有指针时
     "e_trigger-none-preservation_up": 0//温存的场合
 }
+const AutoGrowEffect = {
+    "ProduceExamEffectType_ExamParameterBuff": {
+        "evaluations": {
+            "1": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            }
+        },
+        "maxRemainingTerm": 1
+    },
+    "ProduceExamEffectType_ExamLessonBuff": {
+        "evaluations": {
+            "1": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            }
+        },
+        "maxRemainingTerm": 1
+    },
+    "ProduceExamEffectType_ExamReview": {
+        "evaluations": {
+            "1": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            }
+        },
+        "maxRemainingTerm": 1
+    },
+    "ProduceExamEffectType_ExamCardPlayAggressive": {
+        "evaluations": {
+            "1": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            }
+        },
+        "maxRemainingTerm": 1
+    },
+    "ProduceExamEffectType_ExamConcentration": {
+        "evaluations": {
+            "1": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 0.0,
+                    "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 0.0,
+                    "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 0.0,
+                    "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 0.0,
+                    "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 0.0,
+                    "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 0.0,
+                    "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 0.0,
+                    "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "2": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 132.0,
+                    "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 1218.0,
+                    "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 45.0,
+                    "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 288.0,
+                    "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 288.0,
+                    "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 19.0,
+                    "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 38.0,
+                    "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "3": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 265.0,
+                    "examStatusEnchantCoefficientPermil": 749.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 2435.0,
+                    "examStatusEnchantCoefficientPermil": 750.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 90.0,
+                    "examStatusEnchantCoefficientPermil": 750.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 577.0,
+                    "examStatusEnchantCoefficientPermil": 750.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 577.0,
+                    "examStatusEnchantCoefficientPermil": 750.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 49.0,
+                    "examStatusEnchantCoefficientPermil": 694.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 75.0,
+                    "examStatusEnchantCoefficientPermil": 753.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "4": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 397.0,
+                    "examStatusEnchantCoefficientPermil": 667.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 3653.0,
+                    "examStatusEnchantCoefficientPermil": 667.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 136.0,
+                    "examStatusEnchantCoefficientPermil": 664.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 865.0,
+                    "examStatusEnchantCoefficientPermil": 667.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 865.0,
+                    "examStatusEnchantCoefficientPermil": 667.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 73.0,
+                    "examStatusEnchantCoefficientPermil": 644.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 113.0,
+                    "examStatusEnchantCoefficientPermil": 667.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "5": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 529.0,
+                    "examStatusEnchantCoefficientPermil": 625.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 4871.0,
+                    "examStatusEnchantCoefficientPermil": 625.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 181.0,
+                    "examStatusEnchantCoefficientPermil": 624.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 1153.0,
+                    "examStatusEnchantCoefficientPermil": 625.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 1153.0,
+                    "examStatusEnchantCoefficientPermil": 625.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 98.0,
+                    "examStatusEnchantCoefficientPermil": 610.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 150.0,
+                    "examStatusEnchantCoefficientPermil": 627.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "6": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 662.0,
+                    "examStatusEnchantCoefficientPermil": 600.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 6088.0,
+                    "examStatusEnchantCoefficientPermil": 600.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 226.0,
+                    "examStatusEnchantCoefficientPermil": 600.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 1442.0,
+                    "examStatusEnchantCoefficientPermil": 600.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 1442.0,
+                    "examStatusEnchantCoefficientPermil": 600.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 216.0,
+                    "examStatusEnchantCoefficientPermil": 421.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 375.0,
+                    "examStatusEnchantCoefficientPermil": 401.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "7": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 794.0,
+                    "examStatusEnchantCoefficientPermil": 583.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 7306.0,
+                    "examStatusEnchantCoefficientPermil": 583.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 271.0,
+                    "examStatusEnchantCoefficientPermil": 584.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 1730.0,
+                    "examStatusEnchantCoefficientPermil": 583.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 1730.0,
+                    "examStatusEnchantCoefficientPermil": 583.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 293.0,
+                    "examStatusEnchantCoefficientPermil": 425.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 450.0,
+                    "examStatusEnchantCoefficientPermil": 445.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "8": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 926.0,
+                    "examStatusEnchantCoefficientPermil": 572.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 8524.0,
+                    "examStatusEnchantCoefficientPermil": 571.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 316.0,
+                    "examStatusEnchantCoefficientPermil": 572.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 2019.0,
+                    "examStatusEnchantCoefficientPermil": 571.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 2019.0,
+                    "examStatusEnchantCoefficientPermil": 571.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 342.0,
+                    "examStatusEnchantCoefficientPermil": 455.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 525.0,
+                    "examStatusEnchantCoefficientPermil": 470.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "9": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1059.0,
+                    "examStatusEnchantCoefficientPermil": 562.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 9741.0,
+                    "examStatusEnchantCoefficientPermil": 563.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 361.0,
+                    "examStatusEnchantCoefficientPermil": 563.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 2307.0,
+                    "examStatusEnchantCoefficientPermil": 562.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 2307.0,
+                    "examStatusEnchantCoefficientPermil": 562.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 390.0,
+                    "examStatusEnchantCoefficientPermil": 474.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 600.0,
+                    "examStatusEnchantCoefficientPermil": 485.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "10": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1191.0,
+                    "examStatusEnchantCoefficientPermil": 556.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 10959.0,
+                    "examStatusEnchantCoefficientPermil": 556.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 407.0,
+                    "examStatusEnchantCoefficientPermil": 555.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 2595.0,
+                    "examStatusEnchantCoefficientPermil": 556.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 2595.0,
+                    "examStatusEnchantCoefficientPermil": 556.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 439.0,
+                    "examStatusEnchantCoefficientPermil": 486.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 675.0,
+                    "examStatusEnchantCoefficientPermil": 494.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "11": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1324.0,
+                    "examStatusEnchantCoefficientPermil": 550.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 12176.0,
+                    "examStatusEnchantCoefficientPermil": 550.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 452.0,
+                    "examStatusEnchantCoefficientPermil": 550.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 2884.0,
+                    "examStatusEnchantCoefficientPermil": 550.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 2884.0,
+                    "examStatusEnchantCoefficientPermil": 550.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 976.0,
+                    "examStatusEnchantCoefficientPermil": 297.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 1500.0,
+                    "examStatusEnchantCoefficientPermil": 300.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "12": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1456.0,
+                    "examStatusEnchantCoefficientPermil": 545.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 13394.0,
+                    "examStatusEnchantCoefficientPermil": 545.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 497.0,
+                    "examStatusEnchantCoefficientPermil": 545.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 3172.0,
+                    "examStatusEnchantCoefficientPermil": 545.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 3172.0,
+                    "examStatusEnchantCoefficientPermil": 545.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 1073.0,
+                    "examStatusEnchantCoefficientPermil": 336.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 1650.0,
+                    "examStatusEnchantCoefficientPermil": 339.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "13": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1588.0,
+                    "examStatusEnchantCoefficientPermil": 542.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 14612.0,
+                    "examStatusEnchantCoefficientPermil": 542.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 542.0,
+                    "examStatusEnchantCoefficientPermil": 542.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 3460.0,
+                    "examStatusEnchantCoefficientPermil": 542.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 3460.0,
+                    "examStatusEnchantCoefficientPermil": 542.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 1171.0,
+                    "examStatusEnchantCoefficientPermil": 366.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 1800.0,
+                    "examStatusEnchantCoefficientPermil": 368.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "14": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1721.0,
+                    "examStatusEnchantCoefficientPermil": 538.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 15829.0,
+                    "examStatusEnchantCoefficientPermil": 538.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 587.0,
+                    "examStatusEnchantCoefficientPermil": 539.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 3749.0,
+                    "examStatusEnchantCoefficientPermil": 538.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 3749.0,
+                    "examStatusEnchantCoefficientPermil": 538.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 1269.0,
+                    "examStatusEnchantCoefficientPermil": 388.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 1950.0,
+                    "examStatusEnchantCoefficientPermil": 391.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            }
+        },
+        "maxRemainingTerm": 14
+    },
+    "ProduceExamEffectType_ExamFullPower": {
+        "evaluations": {
+            "1": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 0.0,
+                    "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 0.0,
+                    "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 0.0,
+                    "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 0.0,
+                    "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 0.0,
+                    "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 0.0,
+                    "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 0.0,
+                    "examStatusEnchantCoefficientPermil": 0.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "2": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 132.0,
+                    "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 1218.0,
+                    "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 45.0,
+                    "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 374.0,
+                    "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 374.0,
+                    "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 19.0,
+                    "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 38.0,
+                    "examStatusEnchantCoefficientPermil": 1000.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "3": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 265.0,
+                    "examStatusEnchantCoefficientPermil": 749.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 2435.0,
+                    "examStatusEnchantCoefficientPermil": 750.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 90.0,
+                    "examStatusEnchantCoefficientPermil": 750.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 747.0,
+                    "examStatusEnchantCoefficientPermil": 750.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 747.0,
+                    "examStatusEnchantCoefficientPermil": 750.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 49.0,
+                    "examStatusEnchantCoefficientPermil": 694.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 75.0,
+                    "examStatusEnchantCoefficientPermil": 753.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "4": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 397.0,
+                    "examStatusEnchantCoefficientPermil": 667.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 3653.0,
+                    "examStatusEnchantCoefficientPermil": 667.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 136.0,
+                    "examStatusEnchantCoefficientPermil": 664.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 1121.0,
+                    "examStatusEnchantCoefficientPermil": 667.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 1121.0,
+                    "examStatusEnchantCoefficientPermil": 667.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 73.0,
+                    "examStatusEnchantCoefficientPermil": 644.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 113.0,
+                    "examStatusEnchantCoefficientPermil": 667.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "5": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 529.0,
+                    "examStatusEnchantCoefficientPermil": 625.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 4871.0,
+                    "examStatusEnchantCoefficientPermil": 625.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 181.0,
+                    "examStatusEnchantCoefficientPermil": 624.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 1494.0,
+                    "examStatusEnchantCoefficientPermil": 625.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 1494.0,
+                    "examStatusEnchantCoefficientPermil": 625.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 98.0,
+                    "examStatusEnchantCoefficientPermil": 610.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 150.0,
+                    "examStatusEnchantCoefficientPermil": 627.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "6": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 662.0,
+                    "examStatusEnchantCoefficientPermil": 600.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 6088.0,
+                    "examStatusEnchantCoefficientPermil": 600.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 226.0,
+                    "examStatusEnchantCoefficientPermil": 600.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 1868.0,
+                    "examStatusEnchantCoefficientPermil": 600.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 1868.0,
+                    "examStatusEnchantCoefficientPermil": 600.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 216.0,
+                    "examStatusEnchantCoefficientPermil": 421.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 375.0,
+                    "examStatusEnchantCoefficientPermil": 401.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "7": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 794.0,
+                    "examStatusEnchantCoefficientPermil": 583.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 7306.0,
+                    "examStatusEnchantCoefficientPermil": 583.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 271.0,
+                    "examStatusEnchantCoefficientPermil": 584.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 2242.0,
+                    "examStatusEnchantCoefficientPermil": 583.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 2242.0,
+                    "examStatusEnchantCoefficientPermil": 583.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 293.0,
+                    "examStatusEnchantCoefficientPermil": 425.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 450.0,
+                    "examStatusEnchantCoefficientPermil": 445.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "8": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 926.0,
+                    "examStatusEnchantCoefficientPermil": 572.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 8524.0,
+                    "examStatusEnchantCoefficientPermil": 571.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 316.0,
+                    "examStatusEnchantCoefficientPermil": 572.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 2615.0,
+                    "examStatusEnchantCoefficientPermil": 571.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 2615.0,
+                    "examStatusEnchantCoefficientPermil": 571.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 342.0,
+                    "examStatusEnchantCoefficientPermil": 455.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 525.0,
+                    "examStatusEnchantCoefficientPermil": 470.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "9": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1059.0,
+                    "examStatusEnchantCoefficientPermil": 562.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 9741.0,
+                    "examStatusEnchantCoefficientPermil": 563.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 361.0,
+                    "examStatusEnchantCoefficientPermil": 563.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 2989.0,
+                    "examStatusEnchantCoefficientPermil": 562.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 2989.0,
+                    "examStatusEnchantCoefficientPermil": 562.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 390.0,
+                    "examStatusEnchantCoefficientPermil": 474.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 600.0,
+                    "examStatusEnchantCoefficientPermil": 485.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "10": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1191.0,
+                    "examStatusEnchantCoefficientPermil": 556.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 10959.0,
+                    "examStatusEnchantCoefficientPermil": 556.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 407.0,
+                    "examStatusEnchantCoefficientPermil": 555.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 3363.0,
+                    "examStatusEnchantCoefficientPermil": 555.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 3363.0,
+                    "examStatusEnchantCoefficientPermil": 555.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 439.0,
+                    "examStatusEnchantCoefficientPermil": 486.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 675.0,
+                    "examStatusEnchantCoefficientPermil": 494.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "11": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1324.0,
+                    "examStatusEnchantCoefficientPermil": 550.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 12176.0,
+                    "examStatusEnchantCoefficientPermil": 550.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 452.0,
+                    "examStatusEnchantCoefficientPermil": 550.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 3736.0,
+                    "examStatusEnchantCoefficientPermil": 550.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 3736.0,
+                    "examStatusEnchantCoefficientPermil": 550.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 976.0,
+                    "examStatusEnchantCoefficientPermil": 297.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 1500.0,
+                    "examStatusEnchantCoefficientPermil": 300.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "12": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1456.0,
+                    "examStatusEnchantCoefficientPermil": 545.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 13394.0,
+                    "examStatusEnchantCoefficientPermil": 545.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 497.0,
+                    "examStatusEnchantCoefficientPermil": 545.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 4110.0,
+                    "examStatusEnchantCoefficientPermil": 545.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 4110.0,
+                    "examStatusEnchantCoefficientPermil": 545.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 1073.0,
+                    "examStatusEnchantCoefficientPermil": 336.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 1650.0,
+                    "examStatusEnchantCoefficientPermil": 339.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "13": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1588.0,
+                    "examStatusEnchantCoefficientPermil": 542.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 14612.0,
+                    "examStatusEnchantCoefficientPermil": 542.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 542.0,
+                    "examStatusEnchantCoefficientPermil": 542.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 4483.0,
+                    "examStatusEnchantCoefficientPermil": 542.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 4483.0,
+                    "examStatusEnchantCoefficientPermil": 542.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 1171.0,
+                    "examStatusEnchantCoefficientPermil": 366.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 1800.0,
+                    "examStatusEnchantCoefficientPermil": 368.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            },
+            "14": {
+                "ProduceCardGrowEffectType_LessonAdd": {
+                    "evaluation": 1721.0,
+                    "examStatusEnchantCoefficientPermil": 538.0
+                },
+                "ProduceCardGrowEffectType_LessonCountAdd": {
+                    "evaluation": 15829.0,
+                    "examStatusEnchantCoefficientPermil": 538.0
+                },
+                "ProduceCardGrowEffectType_BlockAdd": {
+                    "evaluation": 587.0,
+                    "examStatusEnchantCoefficientPermil": 539.0
+                },
+                "ProduceCardGrowEffectType_FullPowerPointAdd": {
+                    "evaluation": 4857.0,
+                    "examStatusEnchantCoefficientPermil": 538.0
+                },
+                "ProduceCardGrowEffectType_CostBuffReduce": {
+                    "evaluation": 4857.0,
+                    "examStatusEnchantCoefficientPermil": 538.0
+                },
+                "ProduceCardGrowEffectType_CostReduce": {
+                    "evaluation": 1269.0,
+                    "examStatusEnchantCoefficientPermil": 388.0
+                },
+                "ProduceCardGrowEffectType_CostPenetrateReduce": {
+                    "evaluation": 1950.0,
+                    "examStatusEnchantCoefficientPermil": 391.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_LessonBuffAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ReviewAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_AggressiveAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_CardDrawAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                },
+                "ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd": {
+                    "evaluation": 1.0,
+                    "examStatusEnchantCoefficientPermil": 1.0
+                }
+            }
+        },
+        "maxRemainingTerm": 14
+    }
+}
 
 //import { onTest } from "../../setting.js";
 
@@ -6913,6 +8929,23 @@ export default class AutoEvaluationData {
         '牌堆数':"ProduceExamAutoEvaluationType_DrawCardCount",
         'RemainTurn':"ProduceExamAutoEvaluationType_RemainTurn",
         //"ProduceExamAutoEvaluationType_ExamAntiDebuff",
+    };
+    static growEffectNameToIdMapping = {
+        'パラメータ値増加':"ProduceCardGrowEffectType_LessonAdd",
+        'パラメータ上昇回数増加':"ProduceCardGrowEffectType_LessonCountAdd",
+        '元気値増加':"ProduceCardGrowEffectType_BlockAdd",
+        '全力值增加':"ProduceCardGrowEffectType_FullPowerPointAdd",//？
+        'buff消耗减少':"ProduceCardGrowEffectType_CostBuffReduce",//？
+        '消耗减少':"ProduceCardGrowEffectType_CostReduce",//？
+        '原始消耗减少？':"ProduceCardGrowEffectType_CostPenetrateReduce",//？
+        '好調回合增加':"ProduceCardGrowEffectType_ParameterBuffTurnAdd",//？
+        '集中增加':"ProduceCardGrowEffectType_LessonBuffAdd",//？
+        '好印象増加':"ProduceCardGrowEffectType_ReviewAdd",//？
+        'やる気増加':"ProduceCardGrowEffectType_AggressiveAdd",//？
+        '抽卡数增加':"ProduceCardGrowEffectType_CardDrawAdd",//？
+        '絶好調回合数增加':"ProduceCardGrowEffectType_ParameterBuffMultiplePerTurnAdd",//？
+        '消費体力減少回合数增加':"ProduceCardGrowEffectType_StaminaConsumptionDownTurnAdd",//？
+        '消費体力増加回合数增加':"ProduceCardGrowEffectType_StaminaConsumptionAddTurnAdd",//？
     };
     static jobNameToIdMapping = {
         '好調':"ProduceExamEffectType_ExamParameterBuff",
@@ -6963,109 +8996,9 @@ export default class AutoEvaluationData {
             case '最終ターン終了時、スコア+15(集中効果2.5倍適用)':
                 return "e_trigger-exam_end_turn-remaining_turn-1";
             default:
+                //console.log("unknown effect description：", effectDescription);
                 return "default";
         }
-    }
-    
-
-    // static round(number, precision) {
-    //     return Math.round(number + "e" + precision) / Math.pow(10, precision);
-    // }
-
-    static get(IdolType,type,remainTurn,n,unitValue,autoId){
-        if(remainTurn<1){
-            remainTurn=1
-        }
-
-        if(type=='score'){
-            n/=unitValue
-        }
-        //else if(type=='パラメータ'||type=='、パラメータ'){
-        else if(type=='パラメータ'){
-            type='score'
-        }
-        else if(type=='、パラメータ'){
-            n=0.5
-        }
-        
-        if (type.slice(0,14) == 'アクティブスキルカード使用時') {
-            let [ ltype,n ] = type.slice(14).split('+')
-            return Math.floor(this.get(IdolType,ltype,remainTurn,n,unitValue)*1.9)
-        }
-        else if (type.slice(0,13) == 'メンタルスキルカード使用時') {
-            let [ ltype,n ] = type.slice(13).split('+')
-            return Math.floor(this.get(IdolType,ltype,remainTurn,n,unitValue)*1.9)
-        }
-        else if (type.slice(0,17) == 'ターン終了時、集中が3以上の場合、') {
-            let [ ltype,n ] = type.slice(17).split('+')
-            return Math.floor(this.get(IdolType,ltype,remainTurn,n,unitValue)*1.8)
-        }
-        else if (type.slice(0,18) == 'ターン終了時、好印象が3以上の場合、') {
-            let [ ltype,n ] = type.slice(18).split('+')
-            return Math.floor(this.get(IdolType,ltype,remainTurn,n,unitValue)*1.8)
-        }
-        else if (type.slice(0,7) == 'ターン終了時、') {
-            let [ ltype,n ] = type.slice(7).split('+')
-            return Math.floor(this.get(IdolType,ltype,remainTurn,n,unitValue)*2.0)
-        }
-        else if (type.slice(0,16) == '好印象効果のスキルカード使用後、') {
-            let [ ltype,n ] = type.slice(7).split('+')
-            return Math.floor(this.get(IdolType,ltype,remainTurn,n,unitValue)*1.9)
-        }
-        else if (type.slice(0,15) == '元気効果のスキルカード使用後、') {
-            let [ ltype,n ] = type.slice(7).split('+')
-            return Math.floor(this.get(IdolType,ltype,remainTurn,n,unitValue)*1.9)
-        }
-        else if (type.slice(0,10) == 'スキルカード使用時、') {
-            let [ ltype,n ] = type.slice(7).split('+')
-            return Math.floor(this.get(IdolType,ltype,remainTurn,n,unitValue)*2.0)
-        }
-
-        if(autoId<=2&&type=='score'){
-            unitValue*=(unitValue/10-1)/3+1 //主观臆断
-        }
-
-        let eva = AutoEvaluation[this.jobNameToIdMapping[IdolType]]["evaluations"];
-        let info;
-        if(!eva[remainTurn]){
-            info=eva[AutoEvaluation["maxRemainingTerm"]];
-        }else{
-            info=eva[remainTurn];
-        }
-
-        if(autoId==1&&type.slice(0,16)=='好印象効果のスキルカード使用後、'){//仅新mao
-            info=info["ProduceExamAutoEvaluationType_ExamExtraTurn"];
-            return Math.floor(info["evaluation"]*info["examStatusEnchantCoefficientPermil"]*n*unitValue/1000000);
-        }
-
-        if(!this.effectNameToIdMapping[type]){
-            return 0;
-        }
-        info=info[this.effectNameToIdMapping[type]];
-
-        //if(onTest) console.log(remainTurn,type,info,n,unitValue,Math.floor(info["evaluation"]*info["examStatusEnchantCoefficientPermil"]*n*unitValue/1000000))
-
-        return Math.floor(info["evaluation"]*info["examStatusEnchantCoefficientPermil"]*n*unitValue/1000000);
-    }
-
-    static judge_parameter(score, parameter, info){
-        return 0//this.round(score*300/(parameter["vocal"]+parameter["dance"]+parameter["visual"])+0.00009999999975,6) * info[this.effectNameToIdMapping["score"]]["evaluation"];
-    }
-
-    static get_effect_evaluation(status, info){
-        return status.pStatus.getValue("集中") *info[this.effectNameToIdMapping["集中"]]["evaluation"] +
-            status.pStatus.getValue("好印象") *info[this.effectNameToIdMapping["好印象"]]["evaluation"] +
-            status.pStatus.getValue("やる気") *info[this.effectNameToIdMapping["やる気"]]["evaluation"] +
-            status.pStatus.getValue("好調") *info[this.effectNameToIdMapping["好調"]]["evaluation"] +
-            status.pStatus.getValue("消費体力削減") *info[this.effectNameToIdMapping["消費体力削減"]]["evaluation"] +
-            status.pStatus.getValue("スキルカード使用数追加") *info[this.effectNameToIdMapping["スキルカード使用数追加"]]["evaluation"]
-    }
-
-    static get_buff_evaluation(status, info){
-        return Math.min(status.pStatus.getValue("好調"),status.remainTurn) *info[this.effectNameToIdMapping["好調"]]["evaluation"] +
-            Math.min(status.pStatus.getValue("絶好調"),status.remainTurn) *info[this.effectNameToIdMapping["絶好調"]]["evaluation"] +
-            Math.min(status.pStatus.getValue("消費体力減少"),status.remainTurn) *info[this.effectNameToIdMapping["消費体力減少"]]["evaluation"] +
-            Math.min(status.pStatus.getValue("消費体力増加"),status.remainTurn) *info[this.effectNameToIdMapping["消費体力増加"]]["evaluation"]
     }
 
     /**
@@ -7136,6 +9069,8 @@ export default class AutoEvaluationData {
                         eva += AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["全力"]]["evaluation"];
                         break;
                 }
+            }else{
+                //console.log("unknown status effect：", status.name);
             }
             return eva;
         }
@@ -7226,5 +9161,14 @@ export default class AutoEvaluationData {
         }
 
         return eva;
+    }
+
+    /**
+     *
+     * @param {Player} player
+     * //@returns {number}
+     */
+    static get_grow_evaluation(player){
+
     }
 }

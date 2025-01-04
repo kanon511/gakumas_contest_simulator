@@ -1,6 +1,8 @@
 export default class ParameterCalculator {
   static version = '1.0';
   static adjustParameter(parameter) {
+    parameter = Math.min(parameter, 2160);
+
     if (parameter <= 300) {
       return parameter * 5 + 1;
     }
