@@ -473,6 +473,17 @@ export const data = [
     unique_pItem_id: 2306040,
   },
   {
+    id: 30605,
+    rarity: 'SSR',
+    episode_name: 'Sekai',
+    character_id: 106,
+    name: '倉本千奈',
+    plan: 'logic',
+    trend: 'やる気',
+    unique_skillCard_id: 4206050,
+    unique_pItem_id: 2306050,
+  },
+  {
     id: 10701,
     rarity: 'R',
     episode_name: '学園生活',

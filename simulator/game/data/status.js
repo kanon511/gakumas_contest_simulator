@@ -521,7 +521,7 @@ export const data = [
 
 
   {
-    id: 5210090,
+    id: 5210010,
     name: '最終ターン終了時、スコア+15(集中効果2.5倍適用)',
     valueType: 'number',
     type: 'buff',
@@ -533,6 +533,28 @@ export const data = [
         value: 15,
         options: [
           { type: 'status_coef_bonus', target: '集中', value: 2.5 },
+        ],
+      },
+    ],
+    isDecay: false,
+  },
+  {
+    id: 5210020,
+    name: '最終ターン終了時、元气130%得分增加',
+    valueType: 'number',
+    type: 'buff',
+    trigger: 'end_turn',
+    condition: 'remain_turn<=1',
+    effects: [
+      {
+        type: 'score',
+        value: 0,
+        options: [
+          {
+            type: 'score',
+            value: 0,
+            options: [{ type: 'increase_by_percentage', target: 'genki', value: 130 }],
+          },
         ],
       },
     ],

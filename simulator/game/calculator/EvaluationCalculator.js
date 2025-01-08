@@ -212,6 +212,11 @@ export class EvaluationCalculator {
           effect2.value = EffectCalculator.calcValue(effect2, player);
           return total * (AutoEvaluationData.get_enchant_coefficient_evaluation(effect1, player) + total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect2, player, true));
 
+      case '最終ターン終了時、元气130%得分增加':
+          var effect = new Effect({ type: 'score', value: 0, options: [{ type: 'increase_by_percentage', target: 'genki', value: 130 }] });
+          effect.value = EffectCalculator.calcValue(effect, player);
+          return total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect, player);
+
       case '以降、ターン開始時、いずれかの指針の場合、すべてのスキルカードのパラメータ値増加+4':
           return 0;
 

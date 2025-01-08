@@ -1616,6 +1616,40 @@ export const data = [
     plan: 'sense',
   },
   {
+    id: 2306050,
+    name: 'new_item+',
+    description: '',
+    trigger: 'after_play_card',
+    condition: 'card_id==2012020|card_id==2012021',
+    effects: [
+      { type: 'extra_turn', value: 1 },
+      {
+        type: 'genki',
+        value: 0,
+        options: [{ type: 'increase_by_percentage', target: 'genki', value: 60 }],
+      },
+    ],
+    limit: 1,
+    plan: 'logic',
+  },
+  {
+    id: 2306051,
+    name: 'new_item+',
+    description: '',
+    trigger: 'after_play_card',
+    condition: 'card_id==2012020|card_id==2012021',
+    effects: [
+      { type: 'extra_turn', value: 1 },
+      {
+        type: 'genki',
+        value: 0,
+        options: [{ type: 'increase_by_percentage', target: 'genki', value: 60 }],
+      },
+    ],
+    limit: 1,
+    plan: 'logic',
+  },
+  {
     id: 2307010,
     name: 'ゲーセンの戦利品',
     description: '',

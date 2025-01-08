@@ -8994,6 +8994,7 @@ export default class AutoEvaluationData {
             case '残り3ターン以内のターン終了時、好印象の180%分のパラメータ上昇':
                 return "e_trigger-exam_end_turn-remaining_turn-3";
             case '最終ターン終了時、スコア+15(集中効果2.5倍適用)':
+            case '最終ターン終了時、元气130%得分增加':
                 return "e_trigger-exam_end_turn-remaining_turn-1";
             default:
                 //console.log("unknown effect description：", effectDescription);
