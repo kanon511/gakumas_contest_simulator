@@ -1839,7 +1839,7 @@ export const data = [
       {
         type: 'fixed_direct_hp',
         value: 0,
-        options: [{ type: 'increase_by_percentage', target: 'hp', value: -15 }],
+        options: [{ type: 'increase_by_percentage', target: 'maxHp', value: -15 }],
       },
     ],
     limit: -1,
@@ -1857,7 +1857,7 @@ export const data = [
       {
         type: 'fixed_direct_hp',
         value: 0,
-        options: [{ type: 'increase_by_percentage', target: 'hp', value: -15 }],
+        options: [{ type: 'increase_by_percentage', target: 'maxHp', value: -15 }],
       },
     ],
     limit: -1,
