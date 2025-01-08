@@ -616,6 +616,17 @@ export const data = [
     unique_pItem_id: 2308030,
   },
   {
+    id: 30804,
+    rarity: 'SSR',
+    episode_name: 'new',
+    character_id: 108,
+    name: '篠澤広',
+    plan: 'logic',
+    trend: 'やる気',
+    unique_skillCard_id: 4208040,
+    unique_pItem_id: 2308040,
+  },
+  {
     id: 10901,
     rarity: 'R',
     episode_name: '学園生活',

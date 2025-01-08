@@ -509,6 +509,33 @@ export const data = [
     isDecay: false,
   },
   {
+    id: 1210101,
+    name: '以降、ターン開始時、体力50%以下の場合、元气40%得分增加、最大体力值10%体力恢复',
+    valueType: 'number',
+    type: 'buff',
+    trigger: 'start_turn',
+    condition: 'hp_per<=50',
+    effects: [
+      {
+        type: 'score',
+        value: 0,
+        options: [
+          {
+            type: 'score',
+            value: 0,
+            options: [{ type: 'increase_by_percentage', target: 'genki', value: 40 }],
+          },
+        ],
+      },
+      {
+        type: 'heal',
+        value: 0,
+        options: [{ type: 'increase_by_percentage', target: 'maxHp', value: 10 }],
+      },
+    ],
+    isDecay: false,
+  },
+  {
     id: 1310010,
     name: '以降、ターン開始時、いずれかの指針の場合、すべてのスキルカードのパラメータ値増加+4',
     valueType: 'number',
