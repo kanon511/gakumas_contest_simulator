@@ -576,13 +576,7 @@ export const data = [
       {
         type: 'score',
         value: 0,
-        options: [
-          {
-            type: 'score',
-            value: 0,
-            options: [{ type: 'increase_by_percentage', target: 'genki', value: 130 }],
-          },
-        ],
+        options: [{ type: 'increase_by_percentage', target: 'genki', value: 130 }],
       },
     ],
     isDecay: false,
