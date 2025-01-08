@@ -1832,7 +1832,7 @@ export const data = [
     name: 'new_item+',
     description: '',
     trigger: 'after_play_card',
-    condition: 'card_id==2022020|card_id==2022021&hp_per>=50',
+    condition: 'card_id==2022020&hp_per>=50|card_id==2022021&hp_per>=50',
     effects: [
       { type: 'status', target: 'やる気', value: 3 },
       { type: 'status', target: 'スキルカード使用数追加', value: 1 },
@@ -1850,7 +1850,7 @@ export const data = [
     name: 'new_item+',
     description: '',
     trigger: 'after_play_card',
-    condition: 'card_id==2022020|card_id==2022021&hp_per>=50',
+    condition: 'card_id==2022020&hp_per>=50|card_id==2022021&hp_per>=50',
     effects: [
       { type: 'status', target: 'やる気', value: 3 },
       { type: 'status', target: 'スキルカード使用数追加', value: 1 },
