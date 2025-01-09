@@ -2927,6 +2927,52 @@ export const data = [
     limit: 1,
     plan: 'logic',
   },
+  {
+    id: 4250121,
+    name: '初星バッチ（赤）',
+    description: '',
+    trigger: 'start_turn',
+    condition: '',
+    effects: [
+      {
+        type: 'status',
+        target: 'パラメータ上昇量増加',
+        value: 70,
+        options: [{ type: 'status_option', target: 'turn', value: 4 }],
+      },
+    ],
+    limit: 1,
+    plan: 'free',
+  },
+  {
+    id: 4250122,
+    name: '初星オブジェ（銀）',
+    description: '',
+    trigger: 'end_turn',
+    condition: 'remain_turn<=2',
+    effects: [
+      {
+        type: 'score',
+        value: 2,
+        options: [{ type: 'status_coef_bonus', target: '集中', value: 1.5 }],
+      },
+    ],
+    limit: 2,
+    plan: 'sense',
+  },
+  {
+    id: 4250123,
+    name: '初星ライト（オレンジ）',
+    description: '',
+    trigger: 'after_play_card',
+    condition: 'card_contains_effect==genki',
+    effects: [
+       { type: 'genki', value: 1 },
+       { type: 'status', target: '好印象', value: 3 },
+    ],
+    limit: 3,
+    plan: 'logic',
+  },
   //   ####   ### ##    ## ##   ####              ### ##    ## ##     ##     ### ##
   //    ##     ##  ##  ##   ##   ##                ##  ##  ##   ##     ##     ##  ##
   //    ##     ##  ##  ##   ##   ##                ##  ##  ##   ##   ## ##    ##  ##

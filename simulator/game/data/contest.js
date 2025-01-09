@@ -756,4 +756,56 @@ export const data = [
       },
     ],
   },
+  {
+    id: 250126,
+    name: '第16期コンテスト',
+    period: '2025/01/11 - 01/26',
+    criteria: {
+      vocal: 25,
+      dance: 40,
+      visual: 35,
+    },
+    rank: ['dance', 'visual', 'vocal'],
+    stages: [
+      {
+        name: 'ステージ1',
+        turn: 8,
+        stageEffectIds: [],
+        stagePItemIds: [4250121],
+        plan: 'free',
+        turnTypes: {
+          vocal: 2,
+          dance: 4,
+          visual: 2,
+        },
+        firstTurnFirstTypeProb: 1,
+      },
+      {
+        name: 'ステージ2',
+        turn: 12,
+        stageEffectIds: [],
+        stagePItemIds: [4250122],
+        plan: 'sense',
+        turnTypes: {
+          vocal: 3,
+          dance: 5,
+          visual: 4,
+        },
+        firstTurnFirstTypeProb: 1,
+      },
+      {
+        name: 'ステージ3',
+        turn: 12,
+        stageEffectIds: [],
+        stagePItemIds: [4250123],
+        plan: 'logic',
+        turnTypes: {
+          vocal: 3,
+          dance: 5,
+          visual: 4,
+        },
+        firstTurnFirstTypeProb: 1,
+      },
+    ],
+  },
 ];
