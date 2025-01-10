@@ -1617,7 +1617,7 @@ export const data = [
   },
   {
     id: 2306050,
-    name: 'new_item+',
+    name: '描いた夢へのあゆみ',
     description: '',
     trigger: 'after_play_card',
     condition: 'card_id==2012020|card_id==2012021',
@@ -1626,15 +1626,16 @@ export const data = [
       {
         type: 'genki',
         value: 0,
-        options: [{ type: 'increase_by_percentage', target: 'genki', value: 60 }],
+        options: [{ type: 'increase_by_percentage', target: 'genki', value: 50 }],
       },
+      { type: 'fixed_direct_hp', value: -2 },
     ],
     limit: 1,
     plan: 'logic',
   },
   {
     id: 2306051,
-    name: 'new_item+',
+    name: '描いた夢へのあゆみ+',
     description: '',
     trigger: 'after_play_card',
     condition: 'card_id==2012020|card_id==2012021',
@@ -1829,12 +1830,12 @@ export const data = [
   },
   {
     id: 2308040,
-    name: 'new_item+',
+    name: '選びとった熱',
     description: '',
     trigger: 'after_play_card',
     condition: 'card_id==2022020&hp_per>=50|card_id==2022021&hp_per>=50',
     effects: [
-      { type: 'status', target: 'やる気', value: 3 },
+      { type: 'status', target: 'やる気', value: 2 },
       { type: 'status', target: 'スキルカード使用数追加', value: 1 },
       {
         type: 'fixed_direct_hp',
@@ -1842,12 +1843,12 @@ export const data = [
         options: [{ type: 'increase_by_percentage', target: 'maxHp', value: -15 }],
       },
     ],
-    limit: -1,
+    limit: 5,
     plan: 'logic',
   },
   {
     id: 2308041,
-    name: 'new_item+',
+    name: '選びとった熱+',
     description: '',
     trigger: 'after_play_card',
     condition: 'card_id==2022020&hp_per>=50|card_id==2022021&hp_per>=50',
@@ -1860,7 +1861,7 @@ export const data = [
         options: [{ type: 'increase_by_percentage', target: 'maxHp', value: -15 }],
       },
     ],
-    limit: -1,
+    limit: 5,
     plan: 'logic',
   },
   {

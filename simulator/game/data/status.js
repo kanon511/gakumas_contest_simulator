@@ -556,6 +556,27 @@ export const data = [
   },
   {
     id: 5210030,
+    name: '以降、ターン開始時、体力50%以下の場合、元气30%得分增加、最大体力值5%体力恢复',
+    valueType: 'number',
+    type: 'buff',
+    trigger: 'start_turn',
+    condition: 'hp_per<=50',
+    effects: [
+      {
+        type: 'score',
+        value: 0,
+        options: [{ type: 'increase_by_percentage', target: 'genki', value: 30 }],
+      },
+      {
+        type: 'heal',
+        value: 0,
+        options: [{ type: 'increase_by_percentage', target: 'maxHp', value: 5 }],
+      },
+    ],
+    isDecay: false,
+  },
+  {
+    id: 5210031,
     name: '以降、ターン開始時、体力50%以下の場合、元气40%得分增加、最大体力值10%体力恢复',
     valueType: 'number',
     type: 'buff',

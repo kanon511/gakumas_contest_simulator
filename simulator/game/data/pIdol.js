@@ -475,7 +475,7 @@ export const data = [
   {
     id: 30605,
     rarity: 'SSR',
-    episode_name: 'Sekai',
+    episode_name: 'Campus mode!!',
     character_id: 106,
     name: '倉本千奈',
     plan: 'logic',
@@ -618,7 +618,7 @@ export const data = [
   {
     id: 30804,
     rarity: 'SSR',
-    episode_name: 'new',
+    episode_name: 'Campus mode!!',
     character_id: 108,
     name: '篠澤広',
     plan: 'logic',

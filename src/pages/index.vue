@@ -9,7 +9,7 @@
           :simulationTotal="simulationTotal"
         />
         <div class="link-container mt-2">
-          <v-btn target="_blank" href="#"> 当前版本：1.0.3 </v-btn>
+          <v-btn target="_blank" href="#"> 当前版本：1.0.4 </v-btn>
           <v-btn target="_blank" href="https://katabami83.github.io/gakumas_contest_simulator/"> @katabami83 </v-btn>
           <v-btn target="_blank" href="https://gkcontest.ris.moe/"> @risりす </v-btn>
         </div>

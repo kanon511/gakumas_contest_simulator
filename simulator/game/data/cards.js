@@ -6894,14 +6894,14 @@ export const data = [
   },
   {
     id: 4206050,
-    name: 'new+',
+    name: '広がり続ける世界',
     type: 'active',
     plan: 'logic',
     cost: { type: 'direct_hp', value: -3 },
     condition: '',
     effects: [
-      { type: 'status', target: 'やる気', value: 6 },
-      { type: 'genki' , value: 8, delay: 1 },
+      { type: 'status', target: 'やる気', value: 4 },
+      { type: 'genki' , value: 5, delay: 1 },
       {
         type: 'status',
         target: '最終ターン終了時、元气130%得分增加',
@@ -6914,7 +6914,7 @@ export const data = [
   },
   {
     id: 4206051,
-    name: 'new+',
+    name: '広がり続ける世界+',
     type: 'active',
     plan: 'logic',
     cost: { type: 'direct_hp', value: -3 },
@@ -7126,14 +7126,14 @@ export const data = [
   },
   {
     id: 4208040,
-    name: 'new_card+',
+    name: 'エウレカ！',
     type: 'active',
     plan: 'logic',
     cost: { type: 'hp', value: -12 },
     condition: '',
     effects: [
       { type: 'status', target: 'スキルカード使用数追加', value: 1 },
-      { type: 'status', target: '以降、ターン開始時、体力50%以下の場合、元气40%得分增加、最大体力值10%体力恢复', value: 1 },
+      { type: 'status', target: '以降、ターン開始時、体力50%以下の場合、元气30%得分增加、最大体力值5%体力恢复', value: 1 },
     ],
     limit: 1,
     card_cost: 0,
@@ -7141,7 +7141,7 @@ export const data = [
   },
   {
     id: 4208041,
-    name: 'new_card+',
+    name: 'エウレカ！+',
     type: 'active',
     plan: 'logic',
     cost: { type: 'hp', value: -12 },
