@@ -762,8 +762,8 @@ export const data = [
     period: '2025/01/11 - 01/26',
     criteria: {
       vocal: 25,
-      dance: 40,
-      visual: 35,
+      dance: 45,
+      visual: 30,
     },
     rank: ['dance', 'visual', 'vocal'],
     stages: [
@@ -788,8 +788,8 @@ export const data = [
         plan: 'sense',
         turnTypes: {
           vocal: 3,
-          dance: 5,
-          visual: 4,
+          dance: 6,
+          visual: 3,
         },
         firstTurnFirstTypeProb: 1,
       },
@@ -801,8 +801,8 @@ export const data = [
         plan: 'logic',
         turnTypes: {
           vocal: 3,
-          dance: 5,
-          visual: 4,
+          dance: 6,
+          visual: 3,
         },
         firstTurnFirstTypeProb: 1,
       },
