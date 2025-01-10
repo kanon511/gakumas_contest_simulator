@@ -9003,19 +9003,28 @@ export default class AutoEvaluationData {
     }
 
     /**
-     *
      * @param {Player} player
      * @returns {number}
      */
-    static get_basic_evaluation(player){
+    static get_raw_remain_turn(player){
         let remainTurn = player.turnManager.remainTurn;
-        let rawRemainTurn = (remainTurn - player.turnManager.extraTurn)/this.calculateTurnMapping[player.plan]+1;
+        let rawRemainTurn = Math.ceil((remainTurn - player.turnManager.extraTurn) / this.calculateTurnMapping[player.plan]) + Math.floor(player.turnManager.extraTurn / 2);
         if (rawRemainTurn < 1){
             rawRemainTurn = 1;
         }
         if (!AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn]){
             rawRemainTurn = AutoEvaluation["maxRemainingTerm"];
         }
+        return rawRemainTurn;
+    }
+
+    /**
+     *
+     * @param {Player} player
+     * @returns {number}
+     */
+    static get_basic_evaluation(player){
+        let rawRemainTurn = this.get_raw_remain_turn(player);
 
         // console.log("score",player.score * AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn][this.effectNameToIdMapping["score"]]["evaluation"]
         //     * 300 / (player.parameter.vocal + player.parameter.dance + player.parameter.visual) + 0.00009999999975)
@@ -9047,13 +9056,7 @@ export default class AutoEvaluationData {
     static get_status_evaluation (status, player){
         let eva = 0;
         let remainTurn = player.turnManager.remainTurn;
-        let rawRemainTurn = (remainTurn - player.turnManager.extraTurn)/this.calculateTurnMapping[player.plan]+1;
-        if (rawRemainTurn < 1){
-            rawRemainTurn = 1;
-        }
-        if (!AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn]){
-            rawRemainTurn = AutoEvaluation["maxRemainingTerm"];
-        }
+        let rawRemainTurn = this.get_raw_remain_turn(player);
 
         if (!this.effectNameToIdMapping[status.name]){
             if (status.name == "指針"){
@@ -9123,13 +9126,7 @@ export default class AutoEvaluationData {
         }
 
         let remainTurn = player.turnManager.remainTurn;
-        let rawRemainTurn = (remainTurn - player.turnManager.extraTurn) / this.calculateTurnMapping[player.plan] + 1;
-        if (rawRemainTurn < 1){
-            rawRemainTurn = 1;
-        }
-        if (!AutoEvaluation[this.jobNameToIdMapping[player.trend]]["evaluations"][rawRemainTurn]){
-            rawRemainTurn = AutoEvaluation["maxRemainingTerm"];
-        }
+        let rawRemainTurn = this.get_raw_remain_turn(player);
 
         if (status.type == "score"){
             status.value *= player.parameter.getScale(player.turnManager.getTurnType())
