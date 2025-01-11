@@ -216,6 +216,27 @@ export class EvaluationCalculator {
           var effect = new Effect({ type: 'score', value: 0, options: [{ type: 'increase_by_percentage', target: 'genki', value: 130 }] });
           effect.value = EffectCalculator.calcValue(effect, player);
           return total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect, player);
+      
+      case '以降、ターン開始時、体力50%以下の場合、元气30%得分增加、最大体力值5%体力恢复':
+          var effect1 = new Effect({ type: 'score', value: 0, options: [{ type: 'increase_by_percentage', target: 'genki', value: 30 }] });
+          effect1.value = EffectCalculator.calcValue(effect1, player);
+          var effect2 = new Effect({
+            type: 'heal',
+            value: 0,
+            options: [{ type: 'increase_by_percentage', target: 'maxHp', value: 5 }],
+          });
+          effect2.value = EffectCalculator.calcValue(effect2, player);
+          return total * (AutoEvaluationData.get_enchant_coefficient_evaluation(effect1, player) + total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect2, player));
+      case '以降、ターン開始時、体力50%以下の場合、元气40%得分增加、最大体力值10%体力恢复':
+          var effect1 = new Effect({ type: 'score', value: 0, options: [{ type: 'increase_by_percentage', target: 'genki', value: 40 }] });
+          effect1.value = EffectCalculator.calcValue(effect1, player);
+          var effect2 = new Effect({
+            type: 'heal',
+            value: 0,
+            options: [{ type: 'increase_by_percentage', target: 'maxHp', value: 10 }],
+          });
+          effect2.value = EffectCalculator.calcValue(effect2, player);
+          return total * (AutoEvaluationData.get_enchant_coefficient_evaluation(effect1, player) + total * AutoEvaluationData.get_enchant_coefficient_evaluation(effect2, player));
 
       case '以降、ターン開始時、いずれかの指針の場合、すべてのスキルカードのパラメータ値増加+4':
           return 0;

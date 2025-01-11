@@ -1,3 +1,4 @@
+import { ca } from "vuetify/locale";
 import ActiveStatusEffect from "../models/ActiveStatusEffect";
 import Effect from "../models/Effect";
 import PassiveStatusEffect from "../models/PassiveStatusEffect";
@@ -6880,7 +6881,8 @@ const AutoTriggerEvaluation = {
     "e_trigger-none-full_power_point_up-1": 900,//全力值大于一时
     "e_trigger-none-full_power_up": 2000,//全力的场合
     "e_trigger-none-not-no_stance": 1000,//拥有指针时
-    "e_trigger-none-preservation_up": 0//温存的场合
+    "e_trigger-none-preservation_up": 0,//温存的场合
+    "e_trigger-exam_start_turn-stamina_less_multiple-500": 800,//体力50%以下时
 }
 const AutoGrowEffect = {
     "ProduceExamEffectType_ExamParameterBuff": {
@@ -8996,6 +8998,9 @@ export default class AutoEvaluationData {
             case '最終ターン終了時、スコア+15(集中効果2.5倍適用)':
             case '最終ターン終了時、元气130%得分增加':
                 return "e_trigger-exam_end_turn-remaining_turn-1";
+            case '以降、ターン開始時、体力50%以下の場合、元气30%得分增加、最大体力值5%体力恢复':
+            case '以降、ターン開始時、体力50%以下の場合、元气40%得分增加、最大体力值10%体力恢复':
+                return "e_trigger-exam_start_turn-stamina_less_multiple-500";
             default:
                 //console.log("unknown effect description：", effectDescription);
                 return "default";
