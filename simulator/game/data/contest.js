@@ -765,6 +765,7 @@ export const data = [
       dance: 45,
       visual: 30,
     },
+    paramCalcType: 'c',
     rank: ['dance', 'visual', 'vocal'],
     stages: [
       {
