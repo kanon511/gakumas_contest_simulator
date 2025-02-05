@@ -40,7 +40,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: jekyll-build
+          name: jekyll-build-artifact
           path: ./_site
           # retention-days: 7  # 可选参数，设置构件保留天数
 
@@ -55,8 +55,10 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: jekyll-build
+          name: jekyll-build-artifact
           path: ./_site
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        with:
+          path: ./_site
