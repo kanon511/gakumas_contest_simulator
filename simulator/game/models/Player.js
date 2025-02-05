@@ -349,6 +349,7 @@ export default class Player extends Clone {
     }
   }
 
+  // 保留卡选择
   selectRetainCard(candidates) {
     const getScoreByCardIndex = (cardIndex) => {
       const card = this.deck.cards[cardIndex];
