@@ -3014,9 +3014,23 @@ export const data = [
     condition: '',
     effects: [
       { type: 'status', target: 'やる気', value: 15 },
-       { type: 'status', target: '好印象', value: 3 },
     ],
     limit: 1,
+    plan: 'logic',
+  },
+  {
+    id: 4250214,
+    name: '初星ライト（オレンジ）',
+    description: '',
+    trigger: 'before_play_card',
+    condition: 'card_type==active&turn<=4',
+    effects: [
+      {
+        type: 'score',
+        value: -100000,
+      },
+    ],
+    limit: 30,
     plan: 'logic',
   },
   //   ####   ### ##    ## ##   ####              ### ##    ## ##     ##     ### ##

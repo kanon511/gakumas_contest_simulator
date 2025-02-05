@@ -846,6 +846,19 @@ export const data = [
         },
         firstTurnFirstTypeProb: 1,
       },
+      {
+        name: 'ステージ3',
+        turn: 12,
+        stageEffectIds: [],
+        stagePItemIds: [4250213,4250214],
+        plan: 'logic',
+        turnTypes: {
+          vocal: 4,
+          dance: 3,
+          visual: 5,
+        },
+        firstTurnFirstTypeProb: 1,
+      },
     ],
   },
 ];
