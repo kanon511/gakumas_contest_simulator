@@ -809,4 +809,43 @@ export const data = [
       },
     ],
   },
+  {
+    id: 250226,
+    name: '第18期コンテスト',
+    period: '2025/02/12 - 02/26',
+    criteria: {
+      vocal: 30,
+      dance: 25,
+      visual: 45,
+    },
+    rank: ['visual', 'vocal', 'dance'],
+    stages: [
+      {
+        name: 'ステージ1',
+        turn: 12,
+        stageEffectIds: [],
+        stagePItemIds: [4250211],
+        plan: 'free',
+        turnTypes: {
+          vocal: 4,
+          dance: 3,
+          visual: 5,
+        },
+        firstTurnFirstTypeProb: 1,
+      },
+      {
+        name: 'ステージ2',
+        turn: 8,
+        stageEffectIds: [],
+        stagePItemIds: [4250212],
+        plan: 'sense',
+        turnTypes: {
+          vocal: 2,
+          dance: 2,
+          visual: 4,
+        },
+        firstTurnFirstTypeProb: 1,
+      },
+    ],
+  },
 ];
